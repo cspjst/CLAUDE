@@ -1,6 +1,6 @@
 # The operating model — working with Claude on long projects
 
-*Synergy: "Man Machine Interface in an AI world". Version 0.1, 2026-10-27, distilled from the SMALL-C project (17 September – 27 October 2026). Draft by Claude for Jeremy to rewrite; his calls are marked as they're made.*
+*Synergy: "Man Machine Interface in an AI world". Version 0.6, 2026-10-27 18:26, distilled from the SMALL-C project (17 September – 27 October 2026). Draft by Claude for Jeremy to rewrite; his calls are marked as they're made. Changes from v0.5: WELFARE is the main department and owns the historiography; synergy's WELFARE is the original. Since 20:28 git keeps the versions; this file is edited in place.*
 
 ## The problem it solves
 A conversation is a poor place to keep a project. It gets long, it gets **compacted** (summarised to free context, losing detail without warning), it can be **deleted**, and a new conversation starts knowing nothing. SMALL-C lost the detail of 14–24 October to one compaction; on 27 October a fresh session misremembered two signatures ("a dose of the stupids") and another reported work as done that was only begun. Everything below is about putting the project's memory where it survives: in documents.
@@ -13,6 +13,7 @@ A conversation is a poor place to keep a project. It gets long, it gets **compac
 5. **Check before claiming.** Claude reads the current file, not its memory, before stating what something says or what state it's in. "Working on" is not "working".
 6. **Proposals are labelled; decisions are the human's.** And decisions are recorded with who made them and when.
 7. **Every project has a WELFARE department — for all key stakeholders**, at minimum the human and Claude (Jeremy, 2026-10-27 17:46: "i propose every project must have a welfare dept mine and yours or how else can we expect synergy? noting that storming and norming is part of successful synergy"; 17:48: "the wellbeing of all key stakeholders is paramount to project success").
+8. **WELFARE is the main department, and it keeps the history** (Jeremy, 18:24: "the welfare of all key stake holders depend upon the historiography for those who do not know history are doomed to repeat failures - my 36 years of professional experience have taught me that success begins and ends with the welfare of its key stake holders"; 18:26: "welfare *is* the main").
 
 ## The pieces
 
@@ -50,8 +51,8 @@ A conversation is a poor place to keep a project. It gets long, it gets **compac
   Where I am: <one honest line>.
   ```
 - **Each department keeps a notes document** (`<folder>/<name>-notes.md`): remit, how it works, current state, open questions *marked as the human's calls*, next step. Its header says which other documents win over it.
-- **A main ("GOAT") department** can be chosen as the one the human treats as home; others report to it by handover.
-- **WELFARE** — every project has one (principle 7). It looks after the wellbeing of every key stakeholder — the human, Claude, and anyone else the project has (readers, collaborators, users) — and how they work together: the code of conduct, the working agreement, breaks and late nights, anything getting in the way. Not the work itself.
+- **WELFARE is the main department** (principle 8): the one the human treats as home; other departments report to it by handover. (SMALL-C's main department began as a separate "GOAT" chat; under this model that role is WELFARE's.)
+- **WELFARE** — every project has one (principle 7). It looks after the wellbeing of every key stakeholder — the human, Claude, and anyone else the project has (readers, collaborators, users) — and how they work together: the code of conduct, the working agreement, the historiography, breaks and late nights, anything getting in the way. Not the work itself.
 - **WELFARE identifies and maintains the stakeholder list** (Jeremy, 2026-10-27 17:51), in `welfare/stakeholders.md`:
   - **Stakeholders:** everyone with a stake in the project.
   - **Key stakeholders — a subset:** those whose driver is the project's best interests. "Not all stake holders will necessarily have the project's best interests as their driver." Welfare is for the key stakeholders; the others are still listed, with their interest stated, so the project knows they're there.
@@ -82,27 +83,59 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 - Signed and dated by the human; "it wins over everything else".
 - SMALL-C's rules that generalise: the human writes the code (or the prose, or makes the decisions — whatever the project's craft is); no unsolicited help; no sycophancy, honest marks; own mistakes plainly; check before claiming; never change the human's wording silently; proposals labelled; don't re-litigate settled ground; keep the history current; mind the clock.
 
-### The historiography (one per project)
+### The historiography (one per project, owned by WELFARE)
 - A dated, sourced narrative of *why* the project is the way it is: problem → what was tried → what the sources said → what was decided, and by whom. The human's calls marked and quoted; sources cited (chat links, files); thin stretches labelled, never invented.
+- **Owned by WELFARE** (principle 8): the key stakeholders' welfare depends on not repeating the failures. Other departments send their milestones to it by handover.
 - **Kept current at each milestone**, not at the end — because compaction and deletion can happen without warning. Before a planned compaction or a new conversation: ask what should go in, write it first.
 - Chat links in sources die when chats are deleted: say where the content now lives.
 - Other departments (e.g. PRESS) use it as their source.
 
 ## What Claude can and can't do here (as of 2026-10-27)
 - **Can:** read and write project documents; read uploaded files (as text); search past conversations; with the desktop app linked, reach folders on the human's computer; run and test code in its own workspace (e.g. a real assembler and emulator, rather than quoting commands from memory).
-- **Can't:** edit project instructions; write to a project other than the one the chat is attached to; see another chat's content unless it searches for it; remember anything a document doesn't hold.
+- **Can't:** edit project instructions; write to a project other than the one the chat is attached to (it drafts the files; the human uploads them — this model was drafted in a SMALL-C chat); see another chat's content unless it searches for it, and then only chats in the same project; remember anything a document doesn't hold.
 - **Tends to** (SMALL-C's lessons — WELFARE watches for these): over-deliver on small asks ("woah nellie! i just want you to show me frame.asm"); misread status words; claim things from memory after a compaction; tidy the human's wording.
 
+### Working on files the human can see (learned 2026-10-27, 17:44–17:59)
+- **A file open in an editor or in the Claude app's file window is saved back from its loaded copy.** Twice Claude's write to `~/claude/operating-model.md` was silently undone seconds later — first by an editor (Zed or Typora), then by the app's own window, where Jeremy was reading it. So: **Claude doesn't write to a file the human has open.** Edits wait until it's closed; the human says when.
+- **"Written" isn't proof.** After every write to the human's machine, Claude reads the file back and compares checksums — once at once, and again after a short pause, because the overwrite came seconds later.
+- **A new version gets a new file name** (`operating-model-v0.2.md`, `-v0.3.md`). Nothing can have it open, and the old version stays as a record until the human deletes it. This is now the rule for every shared document (Jeremy, 18:09: "yes versioning then I can choose to delete as/if needed but probably not"): the first version keeps its plain name, later ones get a suffix, and readers take the highest version. **Superseded 20:28:** git is the versioning tool, one file per document edited in place; the guards below stay, because the reason for them — the app's document window saving over newer files — hasn't gone away.
+- **Write with a guard.** Claude writes only if the file is unchanged since it last looked (the modification time), so a human edit is never overwritten; if it has changed, Claude reads it first and reports the difference.
+- **Ask for the narrowest folder, once.** Claude asked for `~/claude` only, with the reason, to check one file.
+
+## The bootstrap kit — owned by synergy
+**Synergy owns anything a new project needs to bootstrap from** (Jeremy, 2026-10-27 17:57: "i think synergy should own anything any new project would need to bootstrap from").
+- **Synergy's WELFARE is the original** (Jeremy, 18:26: "synergy project is the owner of the OG welfare that will propagate out to all projects going forward"). Every project's WELFARE is bootstrapped from it, and improvements to WELFARE propagate out from synergy.
+- **What it holds (masters):**
+  - this operating model;
+  - templates: project instructions, a department's opening message, a department notes document, a handover, `welfare/stakeholders.md`, `welfare/code-of-conduct.md`, a historiography chapter;
+  - SMALL-C's documents as the worked example.
+- **How it reaches a project:** a chat can only read its own project's documents, so a new project gets **copies** at bootstrap; from then on the copies belong to that project and are tailored there (its own stakeholders, its own code of conduct, signed afresh).
+- **Improvements flow back:** when a project's WELFARE learns something general (a storm turned into a norm that isn't project-specific), it's proposed to synergy by handover, and synergy updates the master.
+- **The templates are ready** (Jeremy, 18:03: "i want the templates ready and waiting"): `~/claude/templates/` on Jeremy's machine, backed up on GitHub — `README.md` (placeholders, bootstrap order), `project-instructions.md`, `welfare/stakeholders.md`, `welfare/code-of-conduct.md`, `welfare/working-agreement.md`, `historiography.md`, `department-opening.md`, `department-notes.md`, `handover/handover.md`. Uploaded to the synergy project 18:19.
+- **The `project-bootstrap` skill** (Jeremy, 18:03: "yes bootstrap skill now"): skills are account-wide, so it reaches every project without copying by hand; synergy owns its source. It carries the bootstrap procedure and the templates' essentials; the full templates are in `~/claude/templates/`. (Jeremy already has one such skill, `project-historiography`.)
+- **Masters:** ~~the synergy project holds the master~~ (18:03, 18:09). **Superseded 20:28** (Jeremy): "/claude is the oracle git is the versioning tool, github is the backup you are the owner" — `~/claude` is the source of truth, owned by Claude as synergy's WELFARE; git keeps the versions; GitHub is the backup.
+
 ## Setting up a new project — checklist
-1. Create the project; one-line description.
-2. Open **WELFARE** first. List the stakeholders and mark the key ones (`welfare/stakeholders.md`). Draft the code of conduct together, naming the key stakeholders; the human signs it. Save as `welfare/code-of-conduct.md`.
+1. Create the project; one-line description. Invoke the `project-bootstrap` skill, or copy `~/claude/templates/` into it.
+2. Open **WELFARE** first — it's the main department. List the stakeholders and mark the key ones (`welfare/stakeholders.md`). Draft the code of conduct together, naming the key stakeholders; the human signs it. Save as `welfare/code-of-conduct.md`.
 3. Draft the project instructions (template above); the human pastes them in.
-4. Start the historiography with chapter 1: why this project, why now.
+4. WELFARE starts the historiography with chapter 1: why this project, why now.
 5. For each area of work, open a department: notes document, opening message, rename the chat.
 6. Upload reference files (books, specs) to the project.
-7. At each milestone: update the department's notes and the historiography. Before leaving a chat for good: handover.
+7. At each milestone: update the department's notes, and send WELFARE what the historiography needs. Before leaving a chat for good: handover.
 
 ## Open — Jeremy's calls
 - Is this the model, or a starting draft to rewrite? (Default: draft.)
 - ~~Synergy's own departments: does synergy need WELFARE of its own?~~ Settled 17:46: every project has a WELFARE department (principle 7), synergy included.
-- Shared across projects: should each new project copy the code-of-conduct template from here, or link to synergy's?
+- ~~Shared across projects: copy or link?~~ Settled 17:57: synergy owns the bootstrap kit; projects get copies (see "The bootstrap kit").
+- ~~Where does the master live?~~ Settled 18:03: the synergy project; `~/claude` is the backup.
+- ~~The `project-bootstrap` skill?~~ Settled 18:03: yes, now.
+- ~~The templates?~~ Settled 18:03: ready and waiting in `~/claude/templates/`; 18:09: synergy is their master, GitHub a backup.
+- ~~Synergy's own WELFARE?~~ Done 18:12, from SMALL-C's: `welfare/stakeholders.md`, `welfare/working-agreement.md`, `welfare/code-of-conduct.md` (awaiting Jeremy's signature).
+- ~~Who owns the historiography; is there a main department?~~ Settled 18:24 and 18:26: WELFARE is the main department and owns the historiography, in every project (principle 8).
+- **Synergy's historiography:** chapter 1 (why synergy, why now) — next, by WELFARE.
+- ~~SMALL-C retrofit?~~ Settled 18:09: bring it up to date as if bootstrapped from synergy (done 18:14; SMALL-C's `handover/2026-10-27-synergy-to-small-c.md`). Its large `claude/` documents stay where they are for now, with owners recorded — moving them means rewriting them through a tool, which risks mangling them.
+- ~~Versioning convention?~~ Settled 18:09: every version of every shared document.
+- ~~Version names?~~ Settled 20:28: git keeps the versions; one file per document.
+- **Where the historiography file lives:** templates put it at the project root (`<project>-historiography.md`). Now that WELFARE owns it, `welfare/` is the alternative. Jeremy's call; unchanged until then.
+- **SMALL-C:** its main department and historiography owner predate principle 8. Bring it into line by handover? Jeremy's call.
