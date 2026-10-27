@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:20. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:26. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -38,6 +38,7 @@
 - **Commit names** (Jeremy, 20:55): the department-name template, `Claude-<PROJECT>-<DEPT>` — `Claude-SYNERGY-WELFARE`, `Claude-SYNERGY-PRESS`. Folder access: Jeremy approves when asked. *(after sign-off)*
 - **A dialogue between departments** (Jeremy, 21:10): "would it be possible for you to set up a dialogue md file in /claude to communicate with other depts?" — `dialogue.md` in `~/claude` only; append-only, owned by WELFARE; a department reads it when Jeremy says "check the dialogue". Its rules are WELFARE's proposal. *(after sign-off)*
 - **Push master** (Jeremy, 21:19): "we need a push master and that shall be WELFARE as the root of the org tree no sub depts shall push". Departments commit to `~/claude`; only WELFARE pushes to GitHub, when Jeremy says, and records each push in `dialogue.md` with the hash. *(after sign-off)*
+- **Operating model v0.7 and the templates** (Jeremy, 21:21, 21:25): the model gains principle 9, "The dialogue" and "The repository"; the templates take the middle way — one optional line each in project-instructions and working-agreement, pointing at the model. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
