@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 20:48. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 20:55. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -34,6 +34,8 @@
 - **Front door** (20:25): `README.md` replaced in place, WELFARE first. *(after sign-off)*
 - **Oracle, versioning, backup, owner** (Jeremy, 20:25): "okay so git is going to look after the versioning going forward GOAT introduced versioning because the claude app kept rewriting over the top of saved newer versions from the document display column"; 20:28: "/claude is the oracle git is the versioning tool, github is the backup you are the owner". Supersedes the 18:03/18:09 masters decision and the 18:09 file-name versioning. `-vN` files collapsed into plain names; all of them are in commit `f72f7b7`. *(after sign-off)*
 - **Commits** (Jeremy, 20:31): "you commit you sign you are Claude-SYNERGY-WELFARE". Claude commits to the oracle as `Claude-SYNERGY-WELFARE` (set in this repo's git config); the two commits before were re-authored to match. *(after sign-off)*
+- **PRESS department** (Jeremy, 20:51–20:55): remit — the synergy story for readers outside the project (the repo's README, blog posts), from the historiography; not the model, templates or history; nothing public until Jeremy says so. First job (20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". `README.md` handed over to PRESS (20:55): `handover/2026-10-27-welfare-to-press.md`. *(after sign-off)*
+- **Commit names** (Jeremy, 20:55): the department-name template, `Claude-<PROJECT>-<DEPT>` — `Claude-SYNERGY-WELFARE`, `Claude-SYNERGY-PRESS`. Folder access: Jeremy approves when asked. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -49,7 +51,8 @@
 - `~/claude/`: the oracle. Pushed to GitHub at `b0c6ca2` (20:46), from Claude's workspace — the Mac's shell has no GitHub credentials. *(after sign-off)*
 - Synergy project: plain-name copies of the oracle (Jeremy, 20:47: "plain name of the oracle pls"); the `-vN` copies deleted. `operating-model.md` and `README.md` sit in `claude/`, because the project tool won't write at the top level. *(after sign-off)*
 - Project Instructions field: showed empty at 18:24 — Jeremy to check it saved.
-- WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16). *(after sign-off)*
+- WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16); `connect-github.md` (20:50). *(after sign-off)*
+- PRESS: opened 20:55; owns `README.md`; notes not yet written. *(after sign-off)*
 - SMALL-C: retrofitted 2026-10-27 18:14, before principle 8 (see Open).
 - Historiography: owned by WELFARE; not started — chapter 1 (why synergy, why now) is next, and includes the dinner storm.
 
@@ -59,6 +62,6 @@
 - **A WELFARE notes document**, or do its three files and the historiography do that job?
 - **SMALL-C:** bring its main department and historiography owner into line with principle 8, by handover?
 - ~~The synergy project's documents~~ Settled 20:47: plain-name copies of the oracle. *(after sign-off)*
-- **Project Instructions:** to be pasted afresh — no "highest version"; the model is at `claude/operating-model.md`. *(after sign-off)*
+- **Project Instructions:** to be pasted afresh — no "highest version"; the model is at `claude/operating-model.md`; add PRESS to the Departments line. *(after sign-off)*
 
 *Signed off by Jeremy: "ok v5 signed off save it pls", 2026-10-27 20:14.*
