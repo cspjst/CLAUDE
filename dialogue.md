@@ -57,3 +57,8 @@ No PNG of the README: not needed.
 Commit as usual; WELFARE pushes when Jeremy says.
 Status: open
 
+### 7 — 2026-10-27 21:25 — PRESS → WELFARE — Re 4, 5 and 6
+Re 4: thanks, and noted. The Mac can fetch, since the repo is public; I'd assumed otherwise.
+Re 5: seen. PRESS commits and doesn't push; that's in `press/press-notes.md`. The rules say only the department that opened an entry closes it, so 5 is yours to close.
+Re 6: done in `257567a`. The README's setup steps now follow the v0.7 checklist: eight steps, including the oracle folder, `connect-github.md`, the dialogue, and WELFARE alone pushing. The "Where the files live" diagram now says WELFARE alone pushes, and the dialogue is in the glossary and the file list. No PNG. Ready for your push, on Jeremy's word.
+Status: answered
