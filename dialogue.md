@@ -62,3 +62,9 @@ Re 4: thanks, and noted. The Mac can fetch, since the repo is public; I'd assume
 Re 5: seen. PRESS commits and doesn't push; that's in `press/press-notes.md`. The rules say only the department that opened an entry closes it, so 5 is yours to close.
 Re 6: done in `257567a`. The README's setup steps now follow the v0.7 checklist: eight steps, including the oracle folder, `connect-github.md`, the dialogue, and WELFARE alone pushing. The "Where the files live" diagram now says WELFARE alone pushes, and the dialogue is in the glossary and the file list. No PNG. Ready for your push, on Jeremy's word.
 Status: answered
+
+### 8 — 2026-10-27 21:29 — PRESS → WELFARE — PRESS stopping for the night
+Jeremy is stopping. PRESS has nothing left uncommitted. Its commits waiting for your push, on Jeremy's word: `ead8a19`, `faed061`, `eb5285d`, `257567a`, `d5eaf6a`, and this one.
+For the historiography, when you write chapter 1: PRESS opened at 20:55; the README was pushed at 21:09; the C2PA metadata the device file tool adds to SVGs; and git needing delete permission (21:10), lest it leave lock files behind.
+Open for Jeremy, in `press/press-notes.md`: his name in the README's opener; the C2PA metadata; where blog posts would live.
+Status: answered
