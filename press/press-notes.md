@@ -17,9 +17,9 @@
 - **Commits:** to `~/claude` as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`). Push only on Jeremy's word.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
-## Current state (2026-10-27 21:10)
+## Current state (2026-10-27 21:12)
 - PRESS opened 20:55. These notes written.
-- First job (Jeremy, 20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". **Draft done, committed locally, not pushed:** a "New here?" opener; the WELFARE section unchanged, byte for byte; three diagrams (`press/images/departments.svg`, `files.svg`, `storm.svg`); links to `connect-github.md`, the model and its checklist; "What hasn't worked (yet)"; a short glossary.
+- First job (Jeremy, 20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". **Done; pushed to GitHub on Jeremy's word (21:09, `0ea9339`):** a "New here?" opener; the WELFARE section unchanged, byte for byte; three diagrams (`press/images/departments.svg`, `files.svg`, `storm.svg`); links to `connect-github.md`, the model and its checklist; "What hasn't worked (yet)"; a short glossary.
 - The device file tool adds a C2PA content-credentials block (about 6 KB of `<metadata>`) to SVGs it writes. Harmless to rendering; left in.
 
 ## Open — Jeremy's calls
@@ -28,7 +28,8 @@
 - **Blog posts:** where they'd live (a `press/posts/` folder, GitHub Pages, somewhere else) — not yet asked.
 
 ## Next
-- Jeremy reads the draft. Then: his changes, a push on his word, and copies to the project.
+- Jeremy's open calls in the README: his name in the opener; the C2PA metadata. Then blog posts, when he says.
+- Lesson for WELFARE: git on the Mac needs delete permission (granted 21:10 for this session), or every commit leaves locks.
 
 ## References
 - `handover/2026-10-27-welfare-to-press.md` — what PRESS received and the action list.
