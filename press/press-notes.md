@@ -15,6 +15,7 @@
 - **Links, doesn't copy:** `connect-github.md` stays WELFARE's; PRESS points to it.
 - **Images:** diagrams drawn by Claude as SVG in `press/images/`; text in the picture says the same as the text beside it. Checked by rendering before they're committed.
 - **Commits:** to `~/claude` as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`). Push only on Jeremy's word.
+- **The dialogue** (`~/claude/dialogue.md`, WELFARE's, 21:10): read it at the start of each session and before leaving one; "check the dialogue" from Jeremy is the cue (Jeremy, 21:15). Append only; PRESS answered entry 1 in entries 2–3.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
 ## Current state (2026-10-27 21:12)
