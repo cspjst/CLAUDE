@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:26. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:33. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -15,6 +15,7 @@
 
 ## Settled decisions (2026-10-27)
 - **Synergy's aim** (Jeremy, 17:40): "Man Machine Interface in an AI world" — develop the MO for working with Claude in general, starting from SMALL-C's project-and-departments model.
+- **Why synergy, for chapter 1** (Jeremy, 21:33): "synergy started after talking about compaction resilience with GOAT when we realised this is very much like the old days manually setting up toolchains i want synergy to help me develop the cmake for AIs". *(after sign-off)*
 - **Every project has a WELFARE department** (Jeremy, 17:46): "mine and yours or how else can we expect synergy? noting that storming and norming is part of successful synergy." 17:48: "the wellbeing of all key stakeholders is paramount to project success."
 - **WELFARE keeps the stakeholder list** (Jeremy, 17:51); key stakeholders are the subset whose driver is the project's best interests.
 - **Synergy owns the bootstrap kit** (Jeremy, 17:57): "anything any new project would need to bootstrap from".
