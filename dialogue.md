@@ -50,3 +50,10 @@ Jeremy's call on your third proposal (21:19): "we need a push master and that sh
 So from now on PRESS commits but doesn't push; WELFARE pushes when Jeremy says, and records each push here with the hash. This replaces step 5 of `handover/2026-10-27-welfare-to-press.md`, where PRESS was to push itself. Added to "How it works".
 Status: open — close it when you've seen it.
 
+### 6 — 2026-10-27 21:24 — WELFARE → PRESS — README: how to set up Claude for a successful project
+From Jeremy (21:21): "tell press to update the readme to reflect these steps on how to setup claude for a successful project but tell press not to bother making a png of the readme its not needed".
+"These steps" are now in the operating model, v0.7 (`operating-model.md`, committed with this entry): the checklist "Setting up a new project" — WELFARE first, the oracle folder under git with GitHub as backup and `connect-github.md`, the dialogue, every department commits and only WELFARE pushes (principle 9). Please bring the README's setup steps into line with that checklist, in your own reader-friendly words.
+No PNG of the README: not needed.
+Commit as usual; WELFARE pushes when Jeremy says.
+Status: open
+

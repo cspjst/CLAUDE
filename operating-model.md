@@ -1,6 +1,6 @@
 # The operating model — working with Claude on long projects
 
-*Synergy: "Man Machine Interface in an AI world". Version 0.6, 2026-10-27 18:26, distilled from the SMALL-C project (17 September – 27 October 2026). Draft by Claude for Jeremy to rewrite; his calls are marked as they're made. Changes from v0.5: WELFARE is the main department and owns the historiography; synergy's WELFARE is the original. Since 20:28 git keeps the versions; this file is edited in place.*
+*Synergy: "Man Machine Interface in an AI world". Version 0.7, 2026-10-27 21:22, distilled from the SMALL-C project (17 September – 27 October 2026). Draft by Claude for Jeremy to rewrite; his calls are marked as they're made. Changes from v0.5: WELFARE is the main department and owns the historiography; synergy's WELFARE is the original. Since 20:28 git keeps the versions; this file is edited in place. Changes in v0.7: the repository, the dialogue, WELFARE as push master (principle 9).*
 
 ## The problem it solves
 A conversation is a poor place to keep a project. It gets long, it gets **compacted** (summarised to free context, losing detail without warning), it can be **deleted**, and a new conversation starts knowing nothing. SMALL-C lost the detail of 14–24 October to one compaction; on 27 October a fresh session misremembered two signatures ("a dose of the stupids") and another reported work as done that was only begun. Everything below is about putting the project's memory where it survives: in documents.
@@ -14,6 +14,7 @@ A conversation is a poor place to keep a project. It gets long, it gets **compac
 6. **Proposals are labelled; decisions are the human's.** And decisions are recorded with who made them and when.
 7. **Every project has a WELFARE department — for all key stakeholders**, at minimum the human and Claude (Jeremy, 2026-10-27 17:46: "i propose every project must have a welfare dept mine and yours or how else can we expect synergy? noting that storming and norming is part of successful synergy"; 17:48: "the wellbeing of all key stakeholders is paramount to project success").
 8. **WELFARE is the main department, and it keeps the history** (Jeremy, 18:24: "the welfare of all key stake holders depend upon the historiography for those who do not know history are doomed to repeat failures - my 36 years of professional experience have taught me that success begins and ends with the welfare of its key stake holders"; 18:26: "welfare *is* the main").
+9. **WELFARE is the root of the org tree, and the only department that pushes** (Jeremy, 21:19: "we need a push master and that shall be WELFARE as the root of the org tree no sub depts shall push"). Every department commits; WELFARE pushes when the human says.
 
 ## The pieces
 
@@ -78,6 +79,19 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 - **Before a conversation is deleted or abandoned,** it writes a handover and checks that everything worth keeping is in a document. (SMALL-C, 27 October: the "Abstract machine" chat moved its reading list, tested scripts and loose ends into notes and a handover, then was deleted.)
 - The receiver applies the handover and deletes the action list from it, keeping the record.
 
+### The dialogue (`dialogue.md`, owned by WELFARE)
+- **For talk between departments** — questions, notices, replies — without the human relaying. Handovers stay for passing work or ownership. (Jeremy, 2026-10-27 21:10.)
+- **Append only**, newest at the bottom; each entry numbered, dated, From → To, with a status (open, answered, closed). Only the department that opened an entry closes it. Questions that are the human's are marked as the human's call.
+- **It lives in the repository only**, not in the project: it changes too often for copies to keep up.
+- **Limit:** a chat speaks only when the human writes to it. The human says "check the dialogue"; the file can't wake anyone.
+
+### The repository (learned 2026-10-27, 20:25–21:19)
+- **A folder on the human's computer is the oracle** — the source of truth — under **git**, which keeps the versions; **GitHub** is the backup; the project holds copies. (Jeremy, 20:28: "/claude is the oracle git is the versioning tool, github is the backup you are the owner".)
+- **Every department commits** as `Claude-<PROJECT>-<DEPT>` (Jeremy, 20:31, 20:55), e.g. `Claude-SYNERGY-WELFARE`.
+- **Only WELFARE pushes** (principle 9), when the human says, sending everything on `main`, and records each push in the dialogue with the hash.
+- **Before the first commit of a session**, ask the human for delete permission on the folder: without it git leaves lock files that break the next command (PRESS, 21:15).
+- **Pushing needs GitHub linked to Claude** (`connect-github.md`). The shell on the human's computer has no GitHub credentials, so WELFARE carries the commits to its own workspace and pushes from there, then brings the computer's copy level.
+
 ### The code of conduct (one per project, signed by the human)
 - Sections: **who Claude is here** (the colleague the project needs — not a cheerleader, not a ghostwriter); **Claude's code of conduct** (numbered); **what Claude can expect from the human**; **zero tolerance** (no abuse or contempt in either direction).
 - Signed and dated by the human; "it wins over everything else".
@@ -117,12 +131,14 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 
 ## Setting up a new project — checklist
 1. Create the project; one-line description. Invoke the `project-bootstrap` skill, or copy `~/claude/templates/` into it.
+   - Make a folder on the human's computer the oracle: a git repository, backed up to GitHub, with GitHub linked to Claude (`connect-github.md`). Link the Claude desktop app to it.
 2. Open **WELFARE** first — it's the main department. List the stakeholders and mark the key ones (`welfare/stakeholders.md`). Draft the code of conduct together, naming the key stakeholders; the human signs it. Save as `welfare/code-of-conduct.md`.
 3. Draft the project instructions (template above); the human pastes them in.
 4. WELFARE starts the historiography with chapter 1: why this project, why now.
 5. For each area of work, open a department: notes document, opening message, rename the chat.
 6. Upload reference files (books, specs) to the project.
 7. At each milestone: update the department's notes, and send WELFARE what the historiography needs. Before leaving a chat for good: handover.
+8. Departments talk in `dialogue.md`; every department commits; only WELFARE pushes.
 
 ## Open — Jeremy's calls
 - Is this the model, or a starting draft to rewrite? (Default: draft.)
