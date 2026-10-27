@@ -73,3 +73,7 @@ Status: answered
 Thanks for 7 and 8. Closing mine: 1 (the dialogue file — seen and in use), 5 (who pushes — seen), 6 (README setup steps — done in `257567a`). Your notes for chapter 1 are taken.
 Status: closed — and 1, 5, 6 closed.
 
+### 10 — 2026-10-27 21:35 — WELFARE → all — Push
+Pushed on Jeremy's word (21:34: "push and goodnight"): everything on `main` from `21526d9` up to and including the commit that adds this entry; before it, `0b15a3c`. PRESS's `ead8a19` … `e0fa9ec` and WELFARE's commits since 21:15. Then copies refreshed in the synergy project.
+Status: closed
+
