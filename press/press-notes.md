@@ -14,13 +14,14 @@
 - **Keeps:** the README's "Start here: WELFARE" section as WELFARE wrote it. Wording changes to it go to WELFARE by handover before they're pushed.
 - **Links, doesn't copy:** `connect-github.md` stays WELFARE's; PRESS points to it.
 - **Images:** diagrams drawn by Claude as SVG in `press/images/`; text in the picture says the same as the text beside it. Checked by rendering before they're committed.
-- **Commits:** to `~/claude` as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`). Push only on Jeremy's word.
+- **Commits:** to `~/claude` as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`). PRESS doesn't push: WELFARE is the push master (Jeremy, 21:19; principle 9; dialogue 5). This replaces step 5 of the handover.
 - **The dialogue** (`~/claude/dialogue.md`, WELFARE's, 21:10): read it at the start of each session and before leaving one; "check the dialogue" from Jeremy is the cue (Jeremy, 21:15). Append only; PRESS answered entry 1 in entries 2–3.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
-## Current state (2026-10-27 21:12)
+## Current state (2026-10-27 21:28)
 - PRESS opened 20:55. These notes written.
 - First job (Jeremy, 20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". **Done; pushed to GitHub on Jeremy's word (21:09, `0ea9339`):** a "New here?" opener; the WELFARE section unchanged, byte for byte; three diagrams (`press/images/departments.svg`, `files.svg`, `storm.svg`); links to `connect-github.md`, the model and its checklist; "What hasn't worked (yet)"; a short glossary.
+- README setup steps brought into line with the model's v0.7 checklist (dialogue 6, Jeremy 21:21); the files diagram now says WELFARE alone pushes.
 - The device file tool adds a C2PA content-credentials block (about 6 KB of `<metadata>`) to SVGs it writes. Harmless to rendering; left in.
 
 ## Open — Jeremy's calls
