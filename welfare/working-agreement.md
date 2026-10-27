@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 20:55. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:10. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -36,6 +36,7 @@
 - **Commits** (Jeremy, 20:31): "you commit you sign you are Claude-SYNERGY-WELFARE". Claude commits to the oracle as `Claude-SYNERGY-WELFARE` (set in this repo's git config); the two commits before were re-authored to match. *(after sign-off)*
 - **PRESS department** (Jeremy, 20:51–20:55): remit — the synergy story for readers outside the project (the repo's README, blog posts), from the historiography; not the model, templates or history; nothing public until Jeremy says so. First job (20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". `README.md` handed over to PRESS (20:55): `handover/2026-10-27-welfare-to-press.md`. *(after sign-off)*
 - **Commit names** (Jeremy, 20:55): the department-name template, `Claude-<PROJECT>-<DEPT>` — `Claude-SYNERGY-WELFARE`, `Claude-SYNERGY-PRESS`. Folder access: Jeremy approves when asked. *(after sign-off)*
+- **A dialogue between departments** (Jeremy, 21:10): "would it be possible for you to set up a dialogue md file in /claude to communicate with other depts?" — `dialogue.md` in `~/claude` only; append-only, owned by WELFARE; a department reads it when Jeremy says "check the dialogue". Its rules are WELFARE's proposal. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
