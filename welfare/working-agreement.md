@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 20:28. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 20:48. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -46,17 +46,19 @@
 ## Status
 - Operating model: v0.6 (`operating-model.md`), awaiting sign-off.
 - Templates: `templates/`, one file each.
-- `~/claude/`: the oracle. Not yet pushed to GitHub since `dbf3091`. *(after sign-off)*
+- `~/claude/`: the oracle. Pushed to GitHub at `b0c6ca2` (20:46), from Claude's workspace — the Mac's shell has no GitHub credentials. *(after sign-off)*
+- Synergy project: plain-name copies of the oracle (Jeremy, 20:47: "plain name of the oracle pls"); the `-vN` copies deleted. `operating-model.md` and `README.md` sit in `claude/`, because the project tool won't write at the top level. *(after sign-off)*
 - Project Instructions field: showed empty at 18:24 — Jeremy to check it saved.
 - WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16). *(after sign-off)*
 - SMALL-C: retrofitted 2026-10-27 18:14, before principle 8 (see Open).
 - Historiography: owned by WELFARE; not started — chapter 1 (why synergy, why now) is next, and includes the dinner storm.
 
 ## Open — Jeremy's calls
-- **Version names:** as Conventions above.
+- ~~Version names~~ Settled 20:28: git. *(after sign-off)*
 - **Where the historiography file lives:** project root (as the templates have it) or `welfare/`.
 - **A WELFARE notes document**, or do its three files and the historiography do that job?
 - **SMALL-C:** bring its main department and historiography owner into line with principle 8, by handover?
-- **The synergy project's documents** are now copies of the oracle, still with `-vN` names, and the project Instructions say "take the highest version". Replace them with plain-name copies? *(after sign-off)*
+- ~~The synergy project's documents~~ Settled 20:47: plain-name copies of the oracle. *(after sign-off)*
+- **Project Instructions:** to be pasted afresh — no "highest version"; the model is at `claude/operating-model.md`. *(after sign-off)*
 
 *Signed off by Jeremy: "ok v5 signed off save it pls", 2026-10-27 20:14.*
