@@ -11,6 +11,7 @@ Departments (one chat each, named in capitals; notes in their folders):
 - <DEPT> — <dept>/<dept>-notes.md — <remit in a few words>.
 
 Handovers between departments: handover/. Versions: one file per document, edited in place; git keeps the history.
+<If the project has a repository — otherwise delete this line:> Departments talk in dialogue.md; every department commits; only WELFARE pushes.
 
 The short version, in case nothing else gets read:
 <HUMAN> makes the decisions; Claude proposes, labelled as proposals.
