@@ -18,21 +18,17 @@
 Retired from the work (Jeremy, 2026-10-28 19:22): "GOAT has been put out to pasture we chat sometimes about life". SMALL-C's WELFARE is its main department; GOAT has no remit in the project and needs no handover.
 
 ## SMALL-C's oracle
-Jeremy (2026-10-28 19:15): `~/dosbox/cspjst/SMALLC`. It's already a git repository — `cspjst/SMALL-C` on GitHub, branch `main`, last commit `9993464` (2026-09-26) — holding Jeremy's code: `src/`, `bin/`, `tools/`, `doc/`, `README.md`, `LICENSE`. **Those are Jeremy's: no department touches them without his word** (SMALL-C's rule: Jeremy writes the code).
+Jeremy (2026-10-28 19:15): `~/dosbox/cspjst/SMALLC`. It's already a git repository — `cspjst/SMALL-C` on GitHub, branch `main`, last commit `9993464` (2026-09-26) — holding Jeremy's code: `src/`, `bin/`, `tools/`, `doc/`, `README.md`, `LICENSE`. **Those are Jeremy's: no department touches them without his word** (SMALL-C's rule: Jeremy writes the code). The documents share the repository (Jeremy, 19:24): "SMALL-C can absolutely share the repo its where we work and anyone else who joins us".
 
 ## For SMALL-C's WELFARE to do
 1. **Access first.** Ask Jeremy for `~/dosbox/cspjst/SMALLC`, then for delete permission there before your first commit (without it git leaves lock files that break the next command).
 2. **Bring the documents home.** Copy each SMALL-C project document into the oracle, by department: `welfare/` (code of conduct, working agreement, stakeholders, the historiography), `sno/`, `pcode/`, `press/`, `handover/`. Copy exactly — read the project document to a file and copy the file; never retype a large document. Check each against its source. Then the project's copies are replaced by plain-name copies of the oracle.
-3. **One historiography.** Keep `sno-historiography.md` whole, in `welfare/`; drop the plan to split it between `sno/` and `pcode/`.
+3. **One historiography.** Keep it whole, in `welfare/`, renamed after the repository: `SMALL-C-historiography.md` (Jeremy, 2026-10-28 19:24: "historiography takes root repo name"). Drop the plan to split it between `sno/` and `pcode/`.
 4. **Code of conduct.** Bring it into synergy's welfare-first order with rules 1, 2 and 4 above, tailored to SMALL-C. Jeremy signs it afresh.
 5. **Working agreement.** Add: the oracle and repository rule (item 6), commit names (7), WELFARE as push master (3), the eggs rule and list (5).
 6. **Dialogue.** Start `dialogue.md` at the root, as synergy's.
 7. **Pushing.** Commit as `Claude-SMALL-C-WELFARE`. Push only on Jeremy's word, and record each push in the dialogue with the hash. The Mac's shell has no GitHub credentials: GitHub must be linked to Claude (`connect-github.md`) and `cspjst/SMALL-C` added to your session; carry the commits across (a git bundle works) and push from your own workspace, then bring the Mac level.
 8. **Project Instructions.** Draft new ones — reading order, departments, "the oracle is `~/dosbox/cspjst/SMALLC`" — for Jeremy to paste.
-
-## Jeremy's calls (not done)
-- **The historiography's name.** `sno-historiography.md` names one department; it now covers the whole project. Rename it, or keep the name?
-- **Committing the documents into the code repository.** They'd share `cspjst/SMALL-C` with the compiler. Fine as is, or a separate folder?
 
 ## Lessons from synergy
 - The Claude app's document window can save its loaded copy over a newer file: never write a file Jeremy has open; check the modification time first; read every write back and compare checksums, once at once and again after a pause.
