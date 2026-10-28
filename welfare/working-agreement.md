@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-27 21:33. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-28 19:05. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -11,7 +11,7 @@
 - **Meals, breaks and late nights:** as the code of conduct, rule 2.
 - **No spoilers:** answer the question asked; review = point at the problem and why.
 - **Sucking eggs:** keep the small explanations by default — a line of "why" costs little. When Jeremy says "sucking eggs" (or "eggs"), drop that level of explanation for that topic from then on, and add the topic to the eggs list below so the next session doesn't do it again. It's feedback, not a telling-off: no apology, just adjust.
-- **Files:** `~/claude/` on Jeremy's Mac is the oracle, owned by Claude as synergy's WELFARE; git keeps the versions; GitHub is the backup. Guards stay: no writes to a file Jeremy has open; check the mtime before writing; read every write back. *(after sign-off)*
+- **Files:** `~/synergy/` on Jeremy's Mac (`~/claude` until 2026-10-28) is the oracle, owned by Claude as synergy's WELFARE; git keeps the versions; GitHub is the backup. Guards stay: no writes to a file Jeremy has open; check the mtime before writing; read every write back. *(after sign-off)*
 
 ## Settled decisions (2026-10-27)
 - **Synergy's aim** (Jeremy, 17:40): "Man Machine Interface in an AI world" — develop the MO for working with Claude in general, starting from SMALL-C's project-and-departments model.
@@ -40,6 +40,7 @@
 - **A dialogue between departments** (Jeremy, 21:10): "would it be possible for you to set up a dialogue md file in /claude to communicate with other depts?" — `dialogue.md` in `~/claude` only; append-only, owned by WELFARE; a department reads it when Jeremy says "check the dialogue". Its rules are WELFARE's proposal. *(after sign-off)*
 - **Push master** (Jeremy, 21:19): "we need a push master and that shall be WELFARE as the root of the org tree no sub depts shall push". Departments commit to `~/claude`; only WELFARE pushes to GitHub, when Jeremy says, and records each push in `dialogue.md` with the hash. *(after sign-off)*
 - **Operating model v0.7 and the templates** (Jeremy, 21:21, 21:25): the model gains principle 9, "The dialogue" and "The repository"; the templates take the middle way — one optional line each in project-instructions and working-agreement, pointing at the model. *(after sign-off)*
+- **SYNERGY-CLAUDE and `~/synergy`** (2026-10-28): Jeremy renamed the project in the README and the GitHub repository to `cspjst/SYNERGY` (11:55, `d4d226f`); 18:59, via PRESS: "pls ask welfare to rename ~/claude to ~/synergy and you can expect to use ~/synergy going forward". Every department asks Jeremy for access to `~/synergy`, and delete permission there, once renamed. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -52,7 +53,7 @@
 ## Status
 - Operating model: v0.6 (`operating-model.md`), awaiting sign-off.
 - Templates: `templates/`, one file each.
-- `~/claude/`: the oracle. Pushed to GitHub at `b0c6ca2` (20:46), from Claude's workspace — the Mac's shell has no GitHub credentials. *(after sign-off)*
+- The oracle: `~/claude`, to be renamed `~/synergy` (see 2026-10-28); GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`. *(after sign-off)*
 - Synergy project: plain-name copies of the oracle (Jeremy, 20:47: "plain name of the oracle pls"); the `-vN` copies deleted. `operating-model.md` and `README.md` sit in `claude/`, because the project tool won't write at the top level. *(after sign-off)*
 - Project Instructions field: showed empty at 18:24 — Jeremy to check it saved.
 - WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16); `connect-github.md` (20:50). *(after sign-off)*

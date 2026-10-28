@@ -1,12 +1,12 @@
 # How to connect Claude to GitHub
 
-*Owned by synergy's WELFARE. Written 2026-10-27 for someone doing it for the first time. Tested once: Jeremy linked GitHub between 20:33 and 20:46 that evening, and Claude pushed to `cspjst/CLAUDE` straight after. The screens may change; where this guide guesses, it says so.*
+*Owned by synergy's WELFARE. Written 2026-10-27 for someone doing it for the first time. Tested once: Jeremy linked GitHub between 20:33 and 20:46 that evening, and Claude pushed to `cspjst/CLAUDE` (since renamed `cspjst/SYNERGY`) straight after. The screens may change; where this guide guesses, it says so.*
 
 ## Why you'd want it
 With GitHub linked, Claude can push your project's commits to GitHub for you — the backup — instead of you doing it by hand. Without it, Claude can still read and write the files on your computer, but it can't send them to GitHub.
 
 ## What you need
-- A GitHub account, with the repository already created on GitHub (for synergy: `cspjst/CLAUDE`).
+- A GitHub account, with the repository already created on GitHub (for synergy: `cspjst/SYNERGY`).
 - The Claude app, or claude.ai in a browser, signed in.
 
 ## The steps
@@ -28,7 +28,7 @@ With GitHub linked, Claude can push your project's commits to GitHub for you —
 - **Anything else:** ask Claude to quote the exact error, not to guess.
 
 ## How Claude uses it (synergy's setup)
-- The project's files live on your computer (for synergy, `~/claude` — the oracle).
+- The project's files live on your computer (for synergy, `~/synergy` — the oracle).
 - Claude commits there as `Claude-SYNERGY-WELFARE`.
 - The shell Claude uses on your computer has no GitHub password, so Claude carries the commits across to its own workspace and pushes from there, using the link you made above.
 - Afterwards Claude brings your computer's copy level with GitHub, so all three agree.
