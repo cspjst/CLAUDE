@@ -1,10 +1,10 @@
-# CLAUDE
+# SYNERGY-CLAUDE
 grabbing the AI tiger by the tail
 
 **Synergy** — "Man Machine Interface in an AI world": a way of working
 with Claude on long projects, and the kit to start one.
 
-> **New here?** This is how one programmer, Jeremy, works with Claude on
+> **New here?** This is how one human works with Claude on
 > projects that run for weeks, not one chat: the rules, the templates,
 > and what went wrong along the way. Everything grew out of a six-week
 > project called SMALL-C. Read the next section, look at the pictures,
@@ -110,7 +110,7 @@ An honest list, from the record:
   one department to another.
 - **Compaction:** the app summarising a long chat to make room; detail
   goes without warning.
-- **The oracle:** `~/claude` on Jeremy's computer, the source of truth.
+- **The oracle:** `~/synergy` on human's computer, the source of truth.
 - **The dialogue:** `dialogue.md`, where departments leave each other
   notes. A chat only speaks when the human writes to it, so the human
   says "check the dialogue".
