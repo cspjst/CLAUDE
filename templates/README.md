@@ -4,6 +4,7 @@
 
 ## Placeholders
 - `<PROJECT>` — the project's name in capitals; `<project>` — lower case where a path needs it.
+- `<REPO>` — the repository's name, as GitHub has it (e.g. `SMALL-C`, `SYNERGY`); the historiography is named after it (Jeremy, 2026-10-28 19:25).
 - `<DEPT>` / `<dept>` — a department's name / its folder.
 - `<HUMAN>` — the human's name (Jeremy).
 - `<date>` — `YYYY-MM-DD`; `<time>` — `HH:MM`, UK local.
@@ -16,7 +17,7 @@
 | 2 | `welfare/stakeholders.md` | `welfare/stakeholders.md` |
 | 2 | `welfare/code-of-conduct.md` | `welfare/code-of-conduct.md` — signed by the human |
 | 2 | `welfare/working-agreement.md` | `welfare/working-agreement.md` |
-| 3 | `historiography.md` | `<project>-historiography.md` (owner: WELFARE) |
+| 3 | `historiography.md` | `<REPO>-historiography.md` (owner: WELFARE) |
 | 4 | `department-opening.md` | the first message of each department chat |
 | 4 | `department-notes.md` | `<dept>/<dept>-notes.md` |
 | any | `handover/handover.md` | `handover/<date>-<from>-to-<to>.md` |

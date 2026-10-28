@@ -153,5 +153,5 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 - ~~SMALL-C retrofit?~~ Settled 18:09: bring it up to date as if bootstrapped from synergy (done 18:14; SMALL-C's `handover/2026-10-27-synergy-to-small-c.md`). Its large `claude/` documents stay where they are for now, with owners recorded — moving them means rewriting them through a tool, which risks mangling them.
 - ~~Versioning convention?~~ Settled 18:09: every version of every shared document.
 - ~~Version names?~~ Settled 20:28: git keeps the versions; one file per document.
-- **Where the historiography file lives:** templates put it at the project root (`<project>-historiography.md`). Now that WELFARE owns it, `welfare/` is the alternative. Jeremy's call; unchanged until then.
+- **Where the historiography file lives:** templates put it at the project root (`<REPO>-historiography.md`, named after the repository — Jeremy, 2026-10-28 19:24–19:25). Now that WELFARE owns it, `welfare/` is the alternative. Jeremy's call; unchanged until then.
 - **SMALL-C:** its main department and historiography owner predate principle 8. Bring it into line by handover? Jeremy's call.

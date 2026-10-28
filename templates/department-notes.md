@@ -1,6 +1,6 @@
 # <DEPT> — department notes
 
-*Owned by <DEPT>. Read after `welfare/code-of-conduct.md`. <HUMAN>'s files win over anything recorded here. History: `<project>-historiography.md` chapter <n> — extend it, don't duplicate it.*
+*Owned by <DEPT>. Read after `welfare/code-of-conduct.md`. <HUMAN>'s files win over anything recorded here. History: `<REPO>-historiography.md` chapter <n> — extend it, don't duplicate it.*
 
 ## Remit
 - <What this department does.>

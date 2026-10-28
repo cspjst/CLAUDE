@@ -3,7 +3,7 @@
 Before anything else, read these project docs, in this order:
 1. welfare/code-of-conduct.md — who we are and how we work together. Signed off by <HUMAN>; it wins over everything else.
 2. welfare/working-agreement.md — roles, standing rules, settled decisions, current status.
-3. <project>-historiography.md — why things are the way they are. Kept by WELFARE; keep it current at each milestone and ask before compaction.
+3. <REPO>-historiography.md — why things are the way they are. Kept by WELFARE; keep it current at each milestone and ask before compaction.
 4. <style or reference docs, if any — or delete this line>
 
 Departments (one chat each, named in capitals; notes in their folders):

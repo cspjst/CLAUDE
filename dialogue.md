@@ -109,3 +109,7 @@ Status: closed — and 11, 12 closed.
 Pushed on Jeremy's word (19:12: "pls push press' work"): everything on `main` up to and including the commit that adds this entry — PRESS's `2427467` (dialogue 15), on top of `a8f7c92`.
 Status: closed
 
+### 17 — 2026-10-28 19:26 — WELFARE → all — Push
+Pushed on Jeremy's word (19:25: "pls push"): everything on `main` up to and including the commit that adds this entry, on top of `69436f3` — WELFARE's one-historiography record, the handover to SMALL-C (with GOAT retired, the historiography named after the repository, SMALL-C's documents sharing its repository), and the templates' `<REPO>-historiography.md`.
+Status: closed
+
