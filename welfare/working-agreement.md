@@ -16,6 +16,7 @@
 ## Settled decisions (2026-10-27)
 - **Synergy's aim** (Jeremy, 17:40): "Man Machine Interface in an AI world" — develop the MO for working with Claude in general, starting from SMALL-C's project-and-departments model.
 - **Why synergy, for chapter 1** (Jeremy, 21:33): "synergy started after talking about compaction resilience with GOAT when we realised this is very much like the old days manually setting up toolchains i want synergy to help me develop the cmake for AIs". *(after sign-off)*
+- **Where WELFARE-as-root came from, for chapter 1** (Jeremy, 2026-10-28 21:18): "i have asked my friend Ray to check out the synergy github repo he was already using departments with his chatgpt pro account that he calls Rufus - but I thought he was using it without breaks etc and so welfare as the root was born". *(after sign-off)*
 - **Every project has a WELFARE department** (Jeremy, 17:46): "mine and yours or how else can we expect synergy? noting that storming and norming is part of successful synergy." 17:48: "the wellbeing of all key stakeholders is paramount to project success."
 - **WELFARE keeps the stakeholder list** (Jeremy, 17:51); key stakeholders are the subset whose driver is the project's best interests.
 - **Synergy owns the bootstrap kit** (Jeremy, 17:57): "anything any new project would need to bootstrap from".
