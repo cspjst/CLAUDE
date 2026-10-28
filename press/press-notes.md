@@ -18,10 +18,11 @@
 - **The dialogue** (`~/claude/dialogue.md`, WELFARE's, 21:10): read it at the start of each session and before leaving one; "check the dialogue" from Jeremy is the cue (Jeremy, 21:15). Append only; PRESS answered entry 1 in entries 2–3.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
-## Current state (2026-10-27 21:28)
+## Current state (2026-10-28 18:59)
 - PRESS opened 20:55. These notes written.
 - First job (Jeremy, 20:54): "improve the git readme.md to be more reader friendly and help with some images and of course point to the connect guide". **Done; pushed to GitHub on Jeremy's word (21:09, `0ea9339`):** a "New here?" opener; the WELFARE section unchanged, byte for byte; three diagrams (`press/images/departments.svg`, `files.svg`, `storm.svg`); links to `connect-github.md`, the model and its checklist; "What hasn't worked (yet)"; a short glossary.
 - README setup steps brought into line with the model's v0.7 checklist (dialogue 6, Jeremy 21:21); the files diagram now says WELFARE alone pushes.
+- 2026-10-28: Jeremy edited the README on GitHub from his work machine (11:55, `d4d226f`): title SYNERGY-CLAUDE, "one human" for his name, oracle `~/synergy`. The repository is now `cspjst/SYNERGY`. PRESS built on it (`faa83b9`, 18:58): human-centric opener, a note on working away from the oracle, the files diagram updated. His name in the opener is settled.
 - The device file tool adds a C2PA content-credentials block (about 6 KB of `<metadata>`) to SVGs it writes. Harmless to rendering; left in.
 
 ## Open — Jeremy's calls
@@ -30,7 +31,7 @@
 - **Blog posts:** where they'd live (a `press/posts/` folder, GitHub Pages, somewhere else) — not yet asked.
 
 ## Next
-- Jeremy's open calls in the README: his name in the opener; the C2PA metadata. Then blog posts, when he says.
+- Jeremy's open calls in the README: the C2PA metadata. Then blog posts, when he says.
 - Lesson for WELFARE: git on the Mac needs delete permission (granted 21:10 for this session), or every commit leaves locks.
 
 ## References
