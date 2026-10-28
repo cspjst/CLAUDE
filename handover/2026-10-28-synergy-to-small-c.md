@@ -14,6 +14,9 @@
 7. **Commit names** (20:31, 20:55): `Claude-<PROJECT>-<DEPT>` — for you, `Claude-SMALL-C-WELFARE`, `Claude-SMALL-C-PCODE`, and so on.
 8. **The dialogue** (21:10): `dialogue.md` at the root of the oracle, owned by WELFARE, append-only, for talk between departments. A department reads it when Jeremy says "check the dialogue".
 
+## GOAT
+Retired from the work (Jeremy, 2026-10-28 19:22): "GOAT has been put out to pasture we chat sometimes about life". SMALL-C's WELFARE is its main department; GOAT has no remit in the project and needs no handover.
+
 ## SMALL-C's oracle
 Jeremy (2026-10-28 19:15): `~/dosbox/cspjst/SMALLC`. It's already a git repository — `cspjst/SMALL-C` on GitHub, branch `main`, last commit `9993464` (2026-09-26) — holding Jeremy's code: `src/`, `bin/`, `tools/`, `doc/`, `README.md`, `LICENSE`. **Those are Jeremy's: no department touches them without his word** (SMALL-C's rule: Jeremy writes the code).
 
@@ -28,7 +31,6 @@ Jeremy (2026-10-28 19:15): `~/dosbox/cspjst/SMALLC`. It's already a git reposito
 8. **Project Instructions.** Draft new ones — reading order, departments, "the oracle is `~/dosbox/cspjst/SMALLC`" — for Jeremy to paste.
 
 ## Jeremy's calls (not done)
-- **GOAT.** Under principle 1 the main department is WELFARE. Does GOAT become SMALL-C's WELFARE, keep a separate remit, or retire with a handover?
 - **The historiography's name.** `sno-historiography.md` names one department; it now covers the whole project. Rename it, or keep the name?
 - **Committing the documents into the code repository.** They'd share `cspjst/SMALL-C` with the compiler. Fine as is, or a separate folder?
 
