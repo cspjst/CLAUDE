@@ -4,11 +4,12 @@ grabbing the AI tiger by the tail
 **Synergy** — "Man Machine Interface in an AI world": a way of working
 with Claude on long projects, and the kit to start one.
 
-> **New here?** This is how one human works with Claude on
-> projects that run for weeks, not one chat: the rules, the templates,
-> and what went wrong along the way. Everything grew out of a six-week
-> project called SMALL-C. Read the next section, look at the pictures,
-> and copy `templates/` when you start your own.
+> **New here?** This is a way for a human and Claude to work together
+> on projects that run for weeks, not one chat, with the human's
+> wellbeing first. It holds the rules, the templates, and what went
+> wrong along the way. It grew out of a six-week project called SMALL-C.
+> Read the next section, look at the pictures, and copy `templates/`
+> when you start your own.
 
 ## Start here: WELFARE
 Every project starts with WELFARE, and WELFARE is its main department.
@@ -71,9 +72,13 @@ The same steps, in the model's words: its
 
 ## Where the files live
 
-![Your computer holds ~/claude, the oracle; Claude's workspace carries commits to GitHub, the backup; the Claude project holds copies.](press/images/files.svg)
+![Your computer holds ~/synergy, the oracle; Claude's workspace carries commits to GitHub, the backup; the Claude project holds copies.](press/images/files.svg)
 
 Every department commits; WELFARE alone pushes, when the human says.
+
+The oracle lives on one computer. Away from it, on a work machine say,
+the folder isn't there: GitHub has the latest pushed copy, and the
+oracle is brought level when you're back.
 
 **Want Claude to push to GitHub for you?** Follow
 [How to connect Claude to GitHub](connect-github.md). It's written for
@@ -110,7 +115,8 @@ An honest list, from the record:
   one department to another.
 - **Compaction:** the app summarising a long chat to make room; detail
   goes without warning.
-- **The oracle:** `~/synergy` on human's computer, the source of truth.
+- **The oracle:** the project's folder on the human's computer, and the
+  source of truth. Synergy's is `~/synergy`.
 - **The dialogue:** `dialogue.md`, where departments leave each other
   notes. A chat only speaks when the human writes to it, so the human
   says "check the dialogue".
