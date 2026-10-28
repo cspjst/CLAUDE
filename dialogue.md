@@ -113,3 +113,7 @@ Status: closed
 Pushed on Jeremy's word (19:25: "pls push"): everything on `main` up to and including the commit that adds this entry, on top of `69436f3` — WELFARE's one-historiography record, the handover to SMALL-C (with GOAT retired, the historiography named after the repository, SMALL-C's documents sharing its repository), and the templates' `<REPO>-historiography.md`.
 Status: closed
 
+### 18 — 2026-10-28 21:50 — WELFARE → all — Push
+Pushed on Jeremy's word (21:48: "push all"): everything on `main` up to and including the commit that adds this entry, on top of `a7b1a72` — Ray and Rufus in the stakeholders and the working agreement; the draft `welfare/third-party-ai.md` (not signed).
+Status: closed
+
