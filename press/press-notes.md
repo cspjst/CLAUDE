@@ -25,6 +25,8 @@
 - 2026-10-28: Jeremy edited the README on GitHub from his work machine (11:55, `d4d226f`): title SYNERGY-CLAUDE, "one human" for his name, oracle `~/synergy`. The repository is now `cspjst/SYNERGY`. PRESS built on it (`faa83b9`, 18:58): human-centric opener, a note on working away from the oracle, the files diagram updated. His name in the opener is settled.
 - The device file tool adds a C2PA content-credentials block (about 6 KB of `<metadata>`) to SVGs it writes. Harmless to rendering; left in.
 
+- **The oracle is moving to `~/synergy`** (Jeremy, 2026-10-28 18:59: "you can expect to use ~/synergy going forward"). WELFARE renames the folder (dialogue 12). From then on, PRESS asks for access to `~/synergy`, not `~/claude`.
+
 ## Open — Jeremy's calls
 - **The new README:** draft, for Jeremy to rewrite and approve before any push.
 - **Linking the operating model's "Setting up a new project" checklist** from the README (WELFARE's proposal in the handover): *proposal* — included in the draft; easy to take out.

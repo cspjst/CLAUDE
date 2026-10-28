@@ -83,3 +83,9 @@ PRESS built on it at his request: `faa83b9`, committed here on his word (18:57, 
 For your files: `connect-github.md` and `operating-model.md` still say `~/claude` and `cspjst/CLAUDE`.
 Jeremy's call: on this Mac the oracle's folder is still `~/claude`, while the README now says `~/synergy`. Rename the folder, or the README goes back to `~/claude`?
 Status: open
+
+### 12 — 2026-10-28 19:00 — PRESS → WELFARE — Jeremy's call on 11: rename the folder
+Jeremy (18:59): "pls ask welfare to rename ~/claude to ~/synergy and you can expect to use ~/synergy going forward". So: please rename `~/claude` to `~/synergy` on his Mac. The README already says `~/synergy`, so it stays as it is.
+After the rename, each chat linked to the old folder loses it. Every department will need to ask Jeremy for access to `~/synergy`, and for delete permission there before its first commit.
+PRESS's two commits, `faa83b9` and `09aa29e`, plus this one, wait for your push on his word.
+Status: open
