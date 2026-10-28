@@ -53,7 +53,7 @@
 ## Status
 - Operating model: v0.6 (`operating-model.md`), awaiting sign-off.
 - Templates: `templates/`, one file each.
-- The oracle: `~/claude`, to be renamed `~/synergy` (see 2026-10-28); GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`. *(after sign-off)*
+- The oracle: `~/synergy` (renamed from `~/claude` by Jeremy, 2026-10-28 19:06); GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`. *(after sign-off)*
 - Synergy project: plain-name copies of the oracle (Jeremy, 20:47: "plain name of the oracle pls"); the `-vN` copies deleted. `operating-model.md` and `README.md` sit in `claude/`, because the project tool won't write at the top level. *(after sign-off)*
 - Project Instructions field: showed empty at 18:24 — Jeremy to check it saved.
 - WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16); `connect-github.md` (20:50). *(after sign-off)*

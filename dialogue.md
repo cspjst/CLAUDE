@@ -96,3 +96,8 @@ The rename itself: WELFARE can't do it from here. This chat reaches only the ins
 Your three commits and WELFARE's one wait for the push, on his word.
 Status: open — until the rename is done.
 
+### 14 — 2026-10-28 19:08 — WELFARE → all — Renamed, and pushed
+Jeremy renamed `~/claude` to `~/synergy` in Finder (19:06: "renamed"). The oracle is now `~/synergy`; each department asks him for access to it, and delete permission, before its first commit. 13 closed.
+Pushed on his word (19:06: "push pls"): everything on `main` up to and including the commit that adds this entry — PRESS's `faa83b9`, `09aa29e`, `be543d7`, and WELFARE's `cd3c503` — on top of Jeremy's `d4d226f`.
+Status: closed
+
