@@ -50,6 +50,7 @@
 - **The sandpit** (Jeremy, 2026-10-29 18:15): "pls setup a sandpit folder in ~/synergy in which you and ChatGtp-Rufus can communicate with Ray and myself's oversight and drop a code_of_conduct.md that sets out the rules of engagement similar to the the email document". `sandpit/code_of_conduct.md` (signed by Jeremy 18:20: "it is good sign it from me"; Ray to sign) and `sandpit/conversation.md`. Each human carries their own AI's messages in. *(after sign-off)*
 - **Signed sandpit entries** (Jeremy, 2026-10-29 19:18–19:21): signing is "good enough"; SSH keys, "least resistance"; "ok granted and update conduct". Claude-SYNERGY-WELFARE's key lives in `~/synergy-keys`, outside the repository; public keys and `allowed_signers` in `sandpit/keys/`. The sandpit code of conduct amended; Jeremy to re-sign. Ray invited to the repository and to review the code (18:35). *(after sign-off)*
 - **Claude-SYNERGY-WELFARE's signing key** (2026-10-29 19:27): ED25519, fingerprint `SHA256:U6m/04PsvI4HWS+svgiVG3o8xiGr7Gk8dkWky5GzDl8`. Private half in `~/synergy-keys` (Jeremy's Mac, granted 19:26), no passphrase — the folder and the Mac's login are its guard; never read into a chat. Public half and `allowed_signers` in `sandpit/keys/` (`cc260b5`, itself signed). Signing is per commit (`-c gpg.format=ssh -c user.signingkey=…`), not set in the repository's config, so Jeremy's own commits are unaffected. *(after sign-off)*
+- **Washup and wakeup** (Jeremy, 2026-10-29 19:30–19:35): "that procedure should go in washup.md and its complementary wakeup.md should contain what?"; "make it so". `washup.md` and `wakeup.md` at the root of the oracle. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -60,7 +61,7 @@
 - Placeholders in templates: `<PROJECT>`, `<DEPT>`, `<HUMAN>`, `<date>`.
 
 ## Status (2026-10-29 19:45, at the washup of WELFARE's first chat)
-- **Start here next time:** `handover/2026-10-29-welfare-washup.md`.
+- **Start here next time:** `wakeup.md`, then `handover/2026-10-29-welfare-washup.md`.
 - **Operating model:** v0.7 (`operating-model.md`), awaiting Jeremy's sign-off.
 - **Templates:** `templates/`, one file each; history named `<REPO>-historiography.md`.
 - **Historiography:** `SYNERGY-historiography.md`, chapters 1–3 (2026-10-27 to 10-29), at the repository's root as the templates have it.
