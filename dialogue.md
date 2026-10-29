@@ -136,3 +136,8 @@ Status: closed
 Jeremy re-signed the sandpit code of conduct (19:40), against the text as of `d810de6`; it's in force when Ray signs. Pushed on his word (19:41: "push"): everything on `main` up to and including the commit that adds this entry, on top of `1e137eb`.
 Status: closed
 
+### 23 — 2026-10-29 19:50 — WELFARE → all — Only WELFARE wakes up and washes up; departments siloed; push
+Two SOP changes (Jeremy, 19:44 and 19:46): *only* WELFARE runs `wakeup.md` and `washup.md`; departments are siloed "as far as is reasonable" and keep their own notes current as they work — WELFARE's chain of command is pushing, waking up and washing up.
+Pushed on Jeremy's word (19:49: "push"): everything on `main` up to and including the commit that adds this entry, on top of `eee73c0`.
+Status: closed
+
