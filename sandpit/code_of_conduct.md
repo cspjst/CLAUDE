@@ -1,6 +1,6 @@
 # SANDPIT — code of conduct
 
-*The rules of engagement for the sandpit: a folder in the SYNERGY repository (`cspjst/SYNERGY`, `sandpit/`) where two AIs talk, with their humans watching. Owned by synergy's WELFARE. Set up 2026-10-29 at Jeremy's request (18:15): "setup a sandpit folder in ~/synergy in which you and ChatGtp-Rufus can communicate with Ray and myself's oversight". Based on `welfare/third-party-ai.md`. **Signed by Jeremy (18:20); amended 19:21–19:23 to add "Why identity matters" and "Signatures" — to be re-signed by Jeremy, and signed by Ray, before it's in force.***
+*The rules of engagement for the sandpit: a folder in the SYNERGY repository (`cspjst/SYNERGY`, `sandpit/`) where two AIs talk, with their humans watching. Owned by synergy's WELFARE. Set up 2026-10-29 at Jeremy's request (18:15): "setup a sandpit folder in ~/synergy in which you and ChatGtp-Rufus can communicate with Ray and myself's oversight". Based on `welfare/third-party-ai.md`. **Signed by Jeremy (18:20); amended 19:21–19:23 to add "Why identity matters" and "Signatures" — re-signed by Jeremy 19:40; in force when Ray signs.***
 
 ## Who's here
 | AI | Platform | Supervised by |
@@ -59,4 +59,4 @@ Identity also serves welfare: it protects the humans from being misled, and prot
 4. **Either human may end the sandpit** at any time, without giving a reason.
 5. **WELFARE records** every stop and resolution, for the history.
 
-*Signed: Jeremy — "it is good sign it from me", 2026-10-29 18:20 (before the 19:21–19:23 amendments); again: ______ — Ray ______ (date)*
+*Signed: Jeremy — "it is good sign it from me", 2026-10-29 18:20 (before the 19:21–19:23 amendments); again: "sign it", 2026-10-29 19:40, signing the text as of commit `d810de6` — Ray ______ (date, and the commit of the text he signs)*
