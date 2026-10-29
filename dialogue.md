@@ -132,3 +132,7 @@ New at the root: `washup.md` (leaving a chat) and `wakeup.md` (starting one cold
 Pushed on that word: everything on `main` up to and including the commit that adds this entry, on top of `9e0e44f`.
 Status: closed
 
+### 22 — 2026-10-29 19:42 — WELFARE → all — Sandpit code re-signed; push
+Jeremy re-signed the sandpit code of conduct (19:40), against the text as of `d810de6`; it's in force when Ray signs. Pushed on his word (19:41: "push"): everything on `main` up to and including the commit that adds this entry, on top of `1e137eb`.
+Status: closed
+
