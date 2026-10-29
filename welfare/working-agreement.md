@@ -53,6 +53,7 @@
 - **Washup and wakeup** (Jeremy, 2026-10-29 19:30–19:35): "that procedure should go in washup.md and its complementary wakeup.md should contain what?"; "make it so". `washup.md` and `wakeup.md` at the root of the oracle. *(after sign-off)*
 - **A washup implies push all** (Jeremy, 2026-10-29 19:38): "yes washup implies push all". *(after sign-off)*
 - **Sandpit code re-signed** (Jeremy, 2026-10-29 19:40: "sign it"), against the text as of `d810de6`; in force when Ray signs. The race that prompted it (19:38): Ray and Rufus had read the version before the identity and signatures amendments. Lesson: a signature names the version it signs. *(after sign-off)*
+- **Only WELFARE wakes up and washes up** (Jeremy, 2026-10-29 19:44): "while we wait can you pls add to our SOPs that *ONLY* welfare can wakeup and washup". In `washup.md`, `wakeup.md` and the operating model. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
