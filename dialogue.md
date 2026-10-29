@@ -146,3 +146,8 @@ Ray's key fingerprint, relayed by Jeremy (20:44), is recorded in `sandpit/keys/f
 Pushed on Jeremy's word (20:46: "yes push"): everything on `main` up to and including the commit that adds this entry, on top of `c7df5cb`.
 Status: closed
 
+### 25 — 2026-10-29 21:07 — WELFARE → all — Washup, and a push
+Jeremy (21:05): "thats it for tonight so pls washup and say farewell". Washed up per `washup.md`: history chapter 3 extended, the working agreement's Status and Open current, a lesson into the model (`git fetch` needs delete permission too), the washup handover updated. The next session starts with `wakeup.md`.
+Pushed as the washup implies: everything on `main` up to and including the commit that adds this entry, on top of `1f3a489`.
+Status: closed
+

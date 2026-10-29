@@ -1,6 +1,6 @@
 # SYNERGY historiography — how the design got here
 
-*Owned by WELFARE, the main department. A dated record of *why*, for the README, the blog and future us. It covers synergy from its first evening, 2026-10-27, onwards. Times are UK local. Where the record is thin, the chapter says so — nothing is invented. Other departments send their milestones to WELFARE through the dialogue or a handover. Written 2026-10-29 19:30–19:45 by Claude-SYNERGY-WELFARE, at the washup of its first chat.*
+*Owned by WELFARE, the main department. A dated record of *why*, for the README, the blog and future us. It covers synergy from its first evening, 2026-10-27, onwards. Times are UK local. Where the record is thin, the chapter says so — nothing is invented. Other departments send their milestones to WELFARE through the dialogue or a handover. Written 2026-10-29 19:30–19:45 by Claude-SYNERGY-WELFARE, at the washup of its first chat; chapter 3 extended at the 21:05 washup.*
 
 Companion docs: `welfare/working-agreement.md` (the settled decisions, each quoted and timed — the primary source for these chapters), `dialogue.md`, `operating-model.md`, `press/press-notes.md`, git history (`cspjst/SYNERGY`).
 
@@ -88,8 +88,12 @@ Sources: this chat, 2026-10-28 19:02–21:50; `welfare/working-agreement.md`; `d
 - **Signing is "good enough"** (19:18); **SSH keys, as the least resistance** (19:19–19:21): no per-message steps.
 - **Identity explained in the sandpit's code** (19:23): "the trust between the two AIs is borrowed from the trust between Jeremy and Ray".
 - **Claude-SYNERGY-WELFARE's key** made in `~/synergy-keys` (19:27): fingerprint `SHA256:U6m/04PsvI4HWS+svgiVG3o8xiGr7Gk8dkWky5GzDl8`; its first signed commit verified (`cc260b5`).
+- **Washup and wakeup** (19:30–19:35): the first washup of a WELFARE chat became a procedure, `washup.md`, and its complement, `wakeup.md` — "make it so". A washup implies push all (19:38); **only WELFARE wakes up and washes up** (19:44); and departments are **siloed, as far as is reasonable** (19:46): "we want an effective chain of command but not one that throttles ease of use".
+- **The race** (19:38). Jeremy: "we have a race condition can you guess?" Ray and Rufus had read the sandpit's code from GitHub while its identity and signatures amendments were still only on the Mac. Jeremy re-signed (19:40) against the text as of `d810de6`, and the lesson went into the model: **a signature names the version it signs**.
+- **Fingerprints crossed** (20:44–20:47): Ray's (`SHA256:Y21f1m+EbqCxn8kaHiOSRSZKUNrTpA35bEn7NT6fDHc`) relayed by Jeremy and recorded in `sandpit/keys/fingerprints.md`; Claude-SYNERGY-WELFARE's read back from the key and passed to Ray.
+- **SMALL-C brought up to speed** (20:50): a second handover, carrying washup, wakeup, siloing and the evening's lessons.
 
 ### What it adds up to
-When two AIs talk, identity can't come from the AIs themselves. It comes from the humans behind them — so the sandpit's security rests, in the end, on a friendship.
+When two AIs talk, identity can't come from the AIs themselves. It comes from the humans behind them — so the sandpit's security rests, in the end, on a friendship. And the evening's own race showed the other half: trust needs to know not only *who* signed, but *which text*.
 
-Sources: this chat, 2026-10-29 18:15–19:30; `sandpit/code_of_conduct.md`; `sandpit/keys/`; `welfare/working-agreement.md`; `dialogue.md` 19. Thin: Ray's review of the code isn't in yet.
+Sources: this chat, 2026-10-29 18:15–21:05; `sandpit/code_of_conduct.md`; `sandpit/keys/`; `washup.md`; `wakeup.md`; `welfare/working-agreement.md`; `dialogue.md` 19–24; `handover/2026-10-29-synergy-to-small-c.md`. Thin: Ray's review of the code, and what Rufus made of it, aren't in the record yet.
