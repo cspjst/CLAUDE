@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-28 19:05. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-29 19:45. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -59,23 +59,26 @@
   - **git** (2026-10-27 20:14) — status, remotes, commits; just report what happened.
 - Placeholders in templates: `<PROJECT>`, `<DEPT>`, `<HUMAN>`, `<date>`.
 
-## Status
-- Operating model: v0.6 (`operating-model.md`), awaiting sign-off.
-- Templates: `templates/`, one file each.
-- The oracle: `~/synergy` (renamed from `~/claude` by Jeremy, 2026-10-28 19:06); GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`. *(after sign-off)*
-- Synergy project: plain-name copies of the oracle (Jeremy, 20:47: "plain name of the oracle pls"); the `-vN` copies deleted. `operating-model.md` and `README.md` sit in `claude/`, because the project tool won't write at the top level. *(after sign-off)*
-- Project Instructions field: showed empty at 18:24 — Jeremy to check it saved.
-- WELFARE: stakeholders, working agreement (signed 20:14), code of conduct (signed 20:16); `connect-github.md` (20:50). *(after sign-off)*
-- PRESS: opened 20:55; owns `README.md`; notes not yet written. *(after sign-off)*
-- SMALL-C: retrofitted 2026-10-27 18:14, before principle 8 (see Open).
-- Historiography: owned by WELFARE; not started — chapter 1 (why synergy, why now) is next, and includes the dinner storm.
+## Status (2026-10-29 19:45, at the washup of WELFARE's first chat)
+- **Start here next time:** `handover/2026-10-29-welfare-washup.md`.
+- **Operating model:** v0.7 (`operating-model.md`), awaiting Jeremy's sign-off.
+- **Templates:** `templates/`, one file each; history named `<REPO>-historiography.md`.
+- **Historiography:** `SYNERGY-historiography.md`, chapters 1–3 (2026-10-27 to 10-29), at the repository's root as the templates have it.
+- **The oracle:** `~/synergy`; GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`.
+- **The synergy project:** copies of the oracle. The Instructions point at `synergy/operating-model.md`, so the model, README and connect guide are copied to `synergy/` in the project (the tool can't write at its top level).
+- **WELFARE:** stakeholders (Ray added, not key), working agreement, code of conduct (signed 2026-10-27 20:16), `connect-github.md`, `third-party-ai.md` (draft).
+- **PRESS:** owns `README.md`; last at work 2026-10-28; nothing outstanding.
+- **SMALL-C:** handover written 2026-10-28 (`handover/2026-10-28-synergy-to-small-c.md`, also in SMALL-C's folder, uncommitted there); for SMALL-C's WELFARE to apply.
+- **Sandpit:** code of conduct signed by Jeremy 18:20, amended 19:21–19:23 (identity, signatures) — awaiting Jeremy's re-signature and Ray's signature. No entries yet. Claude's key and `allowed_signers` in `sandpit/keys/`; Ray's to come.
 
 ## Open — Jeremy's calls
-- ~~Version names~~ Settled 20:28: git. *(after sign-off)*
-- **Where the historiography file lives:** project root (as the templates have it) or `welfare/`.
-- **A WELFARE notes document**, or do its three files and the historiography do that job?
-- **SMALL-C:** bring its main department and historiography owner into line with principle 8, by handover?
-- ~~The synergy project's documents~~ Settled 20:47: plain-name copies of the oracle. *(after sign-off)*
-- **Project Instructions:** to be pasted afresh — no "highest version"; the model is at `claude/operating-model.md`; add PRESS to the Departments line. *(after sign-off)*
+- **Sign the sandpit code of conduct again** (after the 19:21–19:23 amendments); Ray to sign and add his key and fingerprint.
+- **Operating model v0.7:** sign off, or keep as a draft.
+- **`welfare/third-party-ai.md`:** still a draft; the sandpit's code now covers the same ground. Keep both, or retire it?
+- **Where the historiography file lives:** root (as now) or `welfare/`.
+- **A WELFARE notes document**, or does the washup handover do that job?
+- **`experiments\experiment_001\hello.md`:** Jeremy's commit `4e7af04` made one file with backslashes in its name; it doesn't appear on the Mac. Real folders, or remove?
+- **An empty `~/claude` folder** reappeared 2026-10-29 18:20; harmless.
+- **The `project-bootstrap` skill** predates v0.7 (the repository, the dialogue, the push master, keys): update it?
 
 *Signed off by Jeremy: "ok v5 signed off save it pls", 2026-10-27 20:14.*

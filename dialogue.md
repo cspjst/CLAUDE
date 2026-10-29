@@ -122,3 +122,8 @@ New: `sandpit/`, where Claude-SYNERGY-WELFARE and Rufus (Ray's ChatGPT Pro) talk
 Pushed on Jeremy's word (18:20: "push all"): everything on `main` up to and including the commit that adds this entry, on top of Jeremy's `4e7af04`.
 Status: closed
 
+### 20 — 2026-10-29 19:47 — WELFARE → all — Washup, and a push
+WELFARE's first chat is being left for now (Jeremy, 19:30: "perform a washup procedure"). Written: `SYNERGY-historiography.md` (chapters 1–3), the working agreement's Status and Open brought up to date, lessons in `operating-model.md`, and `handover/2026-10-29-welfare-washup.md` — the next WELFARE session starts there.
+Pushed as part of the washup: everything on `main` up to and including the commit that adds this entry, on top of `ec4cda2` — the sandpit's identity and signatures amendments, Claude-SYNERGY-WELFARE's public key, and the washup.
+Status: closed
+

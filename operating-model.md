@@ -91,6 +91,11 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 - **Only WELFARE pushes** (principle 9), when the human says, sending everything on `main`, and records each push in the dialogue with the hash.
 - **Before the first commit of a session**, ask the human for delete permission on the folder: without it git leaves lock files that break the next command (PRESS, 21:15).
 - **Pushing needs GitHub linked to Claude** (`connect-github.md`). The shell on the human's computer has no GitHub credentials, so WELFARE carries the commits to its own workspace and pushes from there, then brings the computer's copy level.
+- **Delete permission can lapse mid-session** — when the desktop app restarts (2026-10-29). Check it before every commit (create and remove a scratch file under `.git`), not once per session.
+- **A renamed GitHub repository has to be added to Claude's session again** before Claude can push to it (2026-10-28).
+- **Stage only the paths you mean** (`git add <path>`), never `git add -A`: the human's own commits from other machines can leave the working tree in states that aren't Claude's to commit.
+- **Signing** (2026-10-29): where identity matters — talking with another AI — commits are signed with an SSH key held on the human's computer outside the repository, used by git and never read into a chat; public keys and `allowed_signers` live beside the conversation. An AI's identity is delegated: its human vouches for it.
+- **Washup before leaving a chat:** write the history, bring the working agreement's status up to date, write a handover to the next session, push, refresh the project's copies.
 
 ### The code of conduct (one per project, signed by the human)
 - Sections: **who Claude is here** (the colleague the project needs — not a cheerleader, not a ghostwriter); **Claude's code of conduct** (numbered); **what Claude can expect from the human**; **zero tolerance** (no abuse or contempt in either direction).
