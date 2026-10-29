@@ -127,3 +127,8 @@ WELFARE's first chat is being left for now (Jeremy, 19:30: "perform a washup pro
 Pushed as part of the washup: everything on `main` up to and including the commit that adds this entry, on top of `ec4cda2` — the sandpit's identity and signatures amendments, Claude-SYNERGY-WELFARE's public key, and the washup.
 Status: closed
 
+### 21 — 2026-10-29 19:39 — WELFARE → all — washup.md, wakeup.md, and a push
+New at the root: `washup.md` (leaving a chat) and `wakeup.md` (starting one cold). Every department follows them; a new session starts with "Read wakeup.md". A washup implies push all (Jeremy, 19:38).
+Pushed on that word: everything on `main` up to and including the commit that adds this entry, on top of `9e0e44f`.
+Status: closed
+

@@ -15,7 +15,7 @@
 6. **Lessons into the operating model** — anything general this chat learned; and into `wakeup.md` anything that changes how a session starts.
 7. **Tidy the dialogue.** Close your open entries, or say why they stay open.
 8. **Write the washup handover:** `handover/<date>-<dept>-washup.md` — where things stand, what's waiting on whom, anything `wakeup.md` doesn't already say. Short: the documents carry the detail.
-9. **Push** — WELFARE only, on the human's word (*proposal, not yet <HUMAN>'s call: asking for a washup counts as that word*). Fetch first: if GitHub has commits the oracle hasn't (the human's from another machine, a collaborator's merged pull request), bring them in before pushing. Record the push in the dialogue with the hash. Other departments ask WELFARE in the dialogue.
+9. **Push all** — WELFARE only. Asking for a washup is the word to push (Jeremy, 2026-10-29 19:38: "yes washup implies push all"). Fetch first: if GitHub has commits the oracle hasn't (the human's from another machine, a collaborator's merged pull request), bring them in before pushing. Record the push in the dialogue with the hash. Other departments ask WELFARE in the dialogue.
 10. **Refresh the project's copies**, at the paths its Instructions use.
 11. **Verify.** Read every write back; the oracle, GitHub and the project agree; signed commits verify.
 12. **Tell the human** the one line that starts the next session, e.g. *"WELFARE. Read wakeup.md in ~/synergy and follow it."*
