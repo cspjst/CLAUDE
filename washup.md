@@ -11,7 +11,7 @@
 ## The steps
 1. **Welfare first.** Is it a sensible hour; has the human eaten? A washup can wait for dinner.
 2. **Check access.** The oracle folder, and delete permission there (create and remove a scratch file under `.git`); the keys folder. Ask again if any has lapsed.
-3. **Commit WELFARE's work**, signed. Stage named paths only. Leave other departments' and the human's uncommitted work alone; mention it.
+3. **Commit WELFARE's work**, signed. Stage named paths only. Leave other departments' and the human's uncommitted work alone, and their notes too — departments keep their own current (Jeremy, 2026-10-29 19:46: "i prefer as much departmental siloing ... as \"reasonable\" we want an effective chain of command but not one that throttles ease of use"); mention anything outstanding.
 4. **Write the history.** Extend `<REPO>-historiography.md` with everything since its last chapter, while the chat still remembers it: the problem, what was tried, what the sources said, what was decided — the human's words quoted and timed, thin stretches labelled. Other departments' milestones come to WELFARE through the dialogue.
 5. **Bring the working agreement up to date.** Its Status and "Open — <HUMAN>'s calls" sections, so a fresh session can trust them.
 6. **Lessons into the operating model** — anything general this chat learned; and into `wakeup.md` anything that changes how a session starts.
