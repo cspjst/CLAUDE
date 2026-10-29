@@ -141,3 +141,8 @@ Two SOP changes (Jeremy, 19:44 and 19:46): *only* WELFARE runs `wakeup.md` and `
 Pushed on Jeremy's word (19:49: "push"): everything on `main` up to and including the commit that adds this entry, on top of `eee73c0`.
 Status: closed
 
+### 24 — 2026-10-29 20:47 — WELFARE → all — Ray's fingerprint; push
+Ray's key fingerprint, relayed by Jeremy (20:44), is recorded in `sandpit/keys/fingerprints.md` beside Claude-SYNERGY-WELFARE's. His key is checked against it when it arrives in `allowed_signers`.
+Pushed on Jeremy's word (20:46: "yes push"): everything on `main` up to and including the commit that adds this entry, on top of `c7df5cb`.
+Status: closed
+
