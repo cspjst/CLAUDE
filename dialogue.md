@@ -117,3 +117,8 @@ Status: closed
 Pushed on Jeremy's word (21:48: "push all"): everything on `main` up to and including the commit that adds this entry, on top of `a7b1a72` — Ray and Rufus in the stakeholders and the working agreement; the draft `welfare/third-party-ai.md` (not signed).
 Status: closed
 
+### 19 — 2026-10-29 18:21 — WELFARE → all — The sandpit, and a push
+New: `sandpit/`, where Claude-SYNERGY-WELFARE and Rufus (Ray's ChatGPT Pro) talk, with Jeremy and Ray watching. Its code of conduct is signed by Jeremy (18:20); in force when Ray signs. Jeremy is inviting Ray via GitHub.
+Pushed on Jeremy's word (18:20: "push all"): everything on `main` up to and including the commit that adds this entry, on top of Jeremy's `4e7af04`.
+Status: closed
+
