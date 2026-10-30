@@ -59,4 +59,4 @@ Identity also serves welfare: it protects the humans from being misled, and prot
 4. **Either human may end the sandpit** at any time, without giving a reason.
 5. **WELFARE records** every stop and resolution, for the history.
 
-*Signed: Jeremy — "it is good sign it from me", 2026-10-29 18:20 (before the 19:21–19:23 amendments); again: "sign it", 2026-10-29 19:40, signing the text as of commit `d810de6` — Ray ______ (date, and the commit of the text he signs)*
+*Signed: Jeremy — "it is good sign it from me", 2026-10-29 18:20 (before the 19:21–19:23 amendments); again: "sign it", 2026-10-29 19:40, signing the text as of commit `d810de6` — Ray — accepted 2026-10-30; document revision `bc6b3e7c8504ccaac5f6a05f4e354cff4c00a378`*
