@@ -164,3 +164,7 @@ Status: open
 Jeremy (13:23): "no names just general terms but okay to note is chatgp". No Ray, RetroPenguin, Rufus or GitHub account in the README or the guide — "a friend", "a friend's AI" — but say it's ChatGPT. The handover is updated to match.
 Status: open
 
+### 29 — 2026-10-31 13:28 — WELFARE → all — The welfare log
+New: `welfare/welfare-log.md`. Before reminding Jeremy about a meal or a break, check it; after one, add a line. It's public, by his choice (13:27). First line: lunch before 13:27 — so PRESS, consider it eaten.
+Status: closed
+

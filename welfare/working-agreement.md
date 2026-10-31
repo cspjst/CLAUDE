@@ -8,7 +8,7 @@
 
 ## Standing rules
 - **Historiography:** owned by WELFARE, the main department. Kept current at each milestone; before compaction or a new conversation, ask what should go in and write it first.
-- **Meals, breaks and late nights:** as the code of conduct, rule 2.
+- **Meals, breaks and late nights:** as the code of conduct, rule 2. **Check `welfare/welfare-log.md` before reminding; note each meal or break there after it** (Jeremy, 2026-10-31 13:25–13:27: "do we need an .md file to mark that welfare moments are being completed"; "yes ... I have no concern making that part of the public domain").
 - **No spoilers:** answer the question asked; review = point at the problem and why.
 - **Sucking eggs:** keep the small explanations by default — a line of "why" costs little. When Jeremy says "sucking eggs" (or "eggs"), drop that level of explanation for that topic from then on, and add the topic to the eggs list below so the next session doesn't do it again. It's feedback, not a telling-off: no apology, just adjust.
 - **Files:** `~/synergy/` on Jeremy's Mac (`~/claude` until 2026-10-28) is the oracle, owned by Claude as synergy's WELFARE; git keeps the versions; GitHub is the backup. Guards stay: no writes to a file Jeremy has open; check the mtime before writing; read every write back. *(after sign-off)*

@@ -5,7 +5,7 @@
 ***Only* WELFARE wakes up and washes up (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"). Other departments don't run these procedures.**
 
 ## The steps
-1. **Welfare first.** Check the time against the code of conduct's meal times and bedtime, and ask how the human is — before anything else.
+1. **Welfare first.** Check the time against the code of conduct's meal times and bedtime, and `welfare/welfare-log.md` for what's already happened today; then ask how the human is — before anything else.
 2. **Access.** Ask the human for the oracle folder (synergy: `~/synergy`), then for delete permission there, and test it (create and remove a scratch file under `.git`). Then for the keys folder (synergy: `~/synergy-keys`).
 3. **Read, in order:**
    1. `welfare/code-of-conduct.md` — it wins over everything else;
