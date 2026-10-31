@@ -6,3 +6,4 @@
 
 ## 2026-10-31
 - before 13:27 — **lunch**: scrambled egg on toast with a dash of Cholula, and a raspberry herbal tea — Jeremy; noted by WELFARE.
+- 16:30 — **snack**: mackerel fillets on sourdough toast — Jeremy; noted by WELFARE.
