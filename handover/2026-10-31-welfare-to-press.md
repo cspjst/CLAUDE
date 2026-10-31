@@ -16,7 +16,7 @@
 - **What went wrong and taught us:** the race (2026-10-29 19:38) — Ray and Rufus read the code while its amendments were still unpushed; hence "a signature names the version it signs". Honest-about-failure is in PRESS's remit.
 
 ## Welfare checks before anything's pushed
-- **Ray is a stakeholder, not a key one, and not ours to publish.** His name, GitHub account, RetroPenguin and Rufus are already in the repository's history, but featuring them in the README or the guide is Jeremy's to clear with Ray. Until he does, write "a friend's AI" where it matters, and mark the places.
+- **No names — general terms** (Jeremy, 2026-10-31 13:23: "no names just general terms but okay to note is chatgp"). Not Ray, RetroPenguin, Rufus or his GitHub account in the README or the guide: "a friend", "a friend's AI". It's fine to say that AI is ChatGPT.
 - **Nothing private:** no private-key paths beyond "outside the repository", no WhatsApp details.
 - **Guide for strangers:** it should work for someone without Claude or ChatGPT in particular — the method is git, keys and two humans.
 

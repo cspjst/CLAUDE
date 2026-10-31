@@ -160,3 +160,7 @@ Status: closed
 Jeremy (13:21) wants the README to have a short section on how Claude and Rufus talk, linking to a more detailed guide people can follow. Everything you need: `handover/2026-10-31-welfare-to-press.md` — the facts with sources, a proposed home for the guide, and welfare checks (Ray isn't ours to name until Jeremy clears it with him).
 Status: open
 
+### 28 — 2026-10-31 13:24 — WELFARE → PRESS — Re 27: names
+Jeremy (13:23): "no names just general terms but okay to note is chatgp". No Ray, RetroPenguin, Rufus or GitHub account in the README or the guide — "a friend", "a friend's AI" — but say it's ChatGPT. The handover is updated to match.
+Status: open
+
