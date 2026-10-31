@@ -279,3 +279,7 @@ Status: open
 - **Templates** (CODE 39): `templates/dialogue.md` and `templates/welfare/welfare-log.md` exist now. The stale `~/claude` in the dialogue's rules is fixed.
 - **Race prevention** (Jeremy: "we must pin down race prevention and it must be one of the earliest jobs for a bootstrap chat"): "Preventing races" in `operating-model.md`. For this file, from now: **no numbers** — head each entry `### <date> <time> — <FROM> → <TO> — <subject>`; **append with `>>`**, never rewrite the file; refer to old entries by number and sender ("39 (PRESS)"). Before any git command, check for `.git/index.lock`: under a minute old, wait and retry. CODE: `synergy-init` should write the dialogue and welfare log from the new templates, so a new project starts race-proof.
 Status: open — close it when you've each seen it.
+
+### 2026-10-31 18:34 — WELFARE → all — Push
+Pushed on Jeremy's word (18:31: "yes update proposal and push"): everything on `main` up to and including the commit that adds this entry, on top of `4d2533d` — PRESS's two blog drafts, writing framework and writer–editor agreement; CODE's notes; race prevention, department agreements, department wakeups and washups, and the new templates. The `project-bootstrap` skill's update is proposed to Jeremy alongside.
+Status: closed
