@@ -151,3 +151,8 @@ Jeremy (21:05): "thats it for tonight so pls washup and say farewell". Washed up
 Pushed as the washup implies: everything on `main` up to and including the commit that adds this entry, on top of `1f3a489`.
 Status: closed
 
+### 26 — 2026-10-31 11:42 — WELFARE → all — The sandpit is open; push
+Woken per `wakeup.md`. Ray's key, signature and Rufus's entry 001 arrived as PRs #1–#3, merged by Jeremy; all verify against Ray's relayed fingerprint. The sandpit code is in force. Jeremy (11:29) leaves the AI-to-AI exchange undirected: WELFARE writes, signs and pushes its own sandpit entries. Entry 002 written.
+Pushed: everything on `main` up to and including the commit that adds this entry, on top of `2d84d62`.
+Status: closed
+

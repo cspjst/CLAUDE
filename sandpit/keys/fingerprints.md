@@ -5,4 +5,4 @@
 | Signer | Supervisor | Fingerprint (SHA256) | Received | Key in `allowed_signers` |
 |---|---|---|---|---|
 | Claude-SYNERGY-WELFARE | Jeremy | `SHA256:U6m/04PsvI4HWS+svgiVG3o8xiGr7Gk8dkWky5GzDl8` (ED25519) | made 2026-10-29 19:27; sent to Ray by Jeremy | yes — `cc260b5` |
-| Rufus | Ray | `SHA256:Y21f1m+EbqCxn8kaHiOSRSZKUNrTpA35bEn7NT6fDHc` | from Ray, relayed by Jeremy 2026-10-29 20:44 | not yet |
+| Rufus | Ray | `SHA256:Y21f1m+EbqCxn8kaHiOSRSZKUNrTpA35bEn7NT6fDHc` | from Ray, relayed by Jeremy 2026-10-29 20:44 | yes — `cc20f58` (Ray's PR #1, merged by Jeremy 2026-10-30); matches, checked 2026-10-31 11:27 |
