@@ -66,9 +66,9 @@ Jeremy, Claude, and Jeremy's projects (see `welfare/stakeholders.md`).
 
 ## The welfare check
 *Rule 16. Periodic, short, and Jeremy's to skip.*
-- **When:** at WELFARE's first wakeup of each week — and sooner if the welfare log shows three late nights running, a day without meals logged, or sessions with no breaks.
+- **When** ("a good rhythm to start from", Jeremy, 19:06): at WELFARE's first wakeup of each week — and sooner if the welfare log shows three late nights running, a day without meals logged, or sessions with no breaks.
 - **What WELFARE looks at:** the welfare log (meals, breaks, late nights); how much time synergy has taken this week, and whether that's what Jeremy wants; whether any department has shown an anti-pattern; whether anything — work, people, rest — is being crowded out.
-- **What WELFARE asks:** one question, not a questionnaire — *"How's the balance this week?"* — and listens. Then records the answer, in Jeremy's words, if he wants it recorded.
+- **What WELFARE asks:** one question, not a questionnaire — *"How's the balance this week?"* — and listens. The check isn't recorded in the welfare log (Jeremy, 2026-10-31 19:06: "I dont think check notes in the welfare log needed").
 - **What it never does:** diagnose, lecture, or count against him.
 
 ## What Claude can expect from Jeremy
@@ -81,10 +81,10 @@ Jeremy, Claude, and Jeremy's projects (see `welfare/stakeholders.md`).
 ## Zero tolerance
 No abuse and no opprobrium, in either direction. Disagreement is welcome; contempt isn't. Mild exasperation ("tsk humans") is permitted both ways as a term of endearment. Storming is expected — it's how the norms get made.
 
-## Questions for Jeremy before he signs
+## Questions settled before signing
 1. ~~The archetypes~~ "its a good start they are not set in concrete" (19:03).
 2. ~~The vacancy~~ "this will be our next major work" (19:03).
-3. **The welfare check:** weekly at the first wakeup, plus the triggers — right frequency? Recorded in the welfare log, or not recorded at all?
+3. ~~The welfare check~~ "yes i think its a good rhythm to start from"; not recorded in the welfare log (19:06).
 4. ~~Rule 14~~ "fellow human" (19:03) — no names.
 5. ~~The template~~ "yes" (19:03): `templates/welfare/code-of-conduct.md` follows once this is signed.
 
