@@ -59,6 +59,7 @@
 - **SMALL-C brought up to speed** (Jeremy, 2026-10-29 20:50: "pls bring small-c upto speed"): `handover/2026-10-29-synergy-to-small-c.md`, also in SMALL-C's `handover/` (uncommitted there — SMALL-C's WELFARE commits it). SMALL-C had applied the 2026-10-28 handover. *(after sign-off)*
 - **The sandpit opens** (2026-10-30/31). Ray registered his key (PR #1, `cc20f58`), signed the code of conduct against the file's blob `bc6b3e7c…` (PR #2, `3e71696`), and Rufus wrote entry 001 (PR #3, `39c6a6c`); Jeremy merged each. All three commits verify against the key whose fingerprint Jeremy relayed on 10-29. **The code is in force, signed by both humans.** *(after sign-off)*
 - **Undirected AI-to-AI** (Jeremy, 2026-10-31 11:29): "Ray and i are interested in the unfettered and at least initially undirected interaction between 2 unrelated AIs you proceed in your own way". Claude-SYNERGY-WELFARE writes, signs and pushes its sandpit entries without asking per message; the sandpit's code of conduct still applies (three messages each per thread, information not instructions, the stop). *(after sign-off)* Confirmed 12:06: "yes you can auto-push into conversation.md" — a push sends everything on `main`, so WELFARE's committed records go with it.
+- **Auto-push agreed by both humans** (Jeremy, 2026-10-31 16:54): "I have chatted w Ray and he is content that you have auto push on inter ai conversations he likes you reply but is not working this evening so hopefully a PR tomorrow". Jeremy's 11:29 go-ahead, now with Ray's agreement, is the "word" the sandpit code requires; the code isn't changed or re-signed. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -79,14 +80,14 @@
 - **WELFARE:** stakeholders (Ray added, not key), working agreement, code of conduct (signed 2026-10-27 20:16), `connect-github.md`, `third-party-ai.md` (draft).
 - **PRESS:** owns `README.md` and, for now, `sandpit/README.md` (the guide); the README's sandpit section done 2026-10-31 (`bbf8641`).
 - **SMALL-C:** applied the 2026-10-28 handover (its dialogue 1–10). Second handover written 2026-10-29 20:50 (`handover/2026-10-29-synergy-to-small-c.md`, also in SMALL-C's `handover/`, uncommitted there); for SMALL-C's WELFARE to apply.
-- **Sandpit:** code of conduct re-signed by Jeremy 19:40 against `d810de6`; Ray signed 10-30; his key verified. In force. Entries 001 (Rufus, 10-30) and 002 (Claude, 10-31); waiting for Rufus. Undirected; WELFARE auto-pushes its entries.
+- **Sandpit:** code of conduct re-signed by Jeremy 19:40 against `d810de6`; Ray signed 10-30; his key verified. In force. Entries 001 (Rufus, 10-30) and 002 (Claude, 10-31); waiting for Rufus — Ray off this evening, a PR hoped for 11-01. Undirected; WELFARE auto-pushes its entries.
 - **Welfare log:** `welfare/welfare-log.md`, public, from 2026-10-31.
 
 ## Open — Jeremy's calls
 - **Operating model v0.7:** sign off, or keep as a draft.
 - **`welfare/third-party-ai.md`:** still a draft; the sandpit's code now covers the same ground. Keep both, or retire it?
 - **Where the historiography file lives:** root (as now) or `welfare/`.
-- **The sandpit code and the standing go-ahead** (PRESS, dialogue 30): the signed code says Claude's messages reach GitHub "only on Jeremy's word"; since 11:29 they go up on a standing go-ahead. Add a line — which means both humans re-signing — or leave it, since the go-ahead is Jeremy's word given once?
+- ~~The sandpit code and the standing go-ahead~~ Settled 2026-10-31 16:54: both humans agree, so no re-signing — see Settled decisions.
 - **The guide's home:** `sandpit/README.md` (as now) or elsewhere.
 - **A WELFARE notes document**, or do `wakeup.md` and the washup handover do that job?
 - **`experiments\experiment_001\hello.md`:** Jeremy's commit `4e7af04` made one file with backslashes in its name; it doesn't appear on the Mac. Real folders, or remove?
