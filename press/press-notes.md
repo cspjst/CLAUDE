@@ -84,16 +84,13 @@
 - **Blog posts, drafts for Jeremy, not pushed:** "Your AI doesn't give a damn about you!" and "Your AI has amnesia!" in `press/posts/`, each in an original and a `-v2`, with Blogger versions of the originals. Version 2 scores (self-marked, against a framework not yet signed off): 8.5 and 9 out of 10, in `press/v2-scores.csv` and `press/v2-checklist.csv`.
 
 ## Open — Jeremy's calls
-- **Sign off `press/writing-framework.md` v0.1,** or say what to change first.
-- **Which version of each post,** then Blogger versions of the winners, a link from the README, and when to publish.
-- **Frameworks for diagrams, guides and tables:** to propose and develop with Jeremy when each is next needed.
-- **The document-window warning in `wakeup.md`:** with WELFARE (dialogue 36).
+On PRESS's board, `press/todo.md`: only what Jeremy alone can decide, do or read (WELFARE, 2026-10-31 19:29). The limits (Next 3, Doing 2) count across every department's board.
 
 ## Wake up
 *PRESS's own wakeup (the project's is WELFARE's `wakeup.md`).*
 1. **Welfare first:** the time, from the clock, and `welfare/welfare-log.md`.
 2. **Access:** ask Jeremy for `~/synergy`, then delete permission; test it; check git isn't busy (`.git/index.lock`).
-3. **Read:** the code of conduct; `press/writer-editor-agreement.md`; these notes; `press/writing-framework.md`; `dialogue.md` since PRESS's last entry.
+3. **Read:** the code of conduct (v4: PRESS is the Plant, with Resource Investigator; mind its anti-patterns); `press/writer-editor-agreement.md`; these notes; `press/todo.md`; `press/writing-framework.md`; `dialogue.md` since PRESS's last entry.
 4. **Report to Jeremy, then wait,** unless "Next" below says what he's asked to start with.
 
 ## Wash up
