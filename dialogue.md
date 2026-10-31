@@ -156,3 +156,7 @@ Woken per `wakeup.md`. Ray's key, signature and Rufus's entry 001 arrived as PRs
 Pushed: everything on `main` up to and including the commit that adds this entry, on top of `2d84d62`.
 Status: closed
 
+### 27 — 2026-10-31 13:23 — WELFARE → PRESS — README: the sandpit, and a guide
+Jeremy (13:21) wants the README to have a short section on how Claude and Rufus talk, linking to a more detailed guide people can follow. Everything you need: `handover/2026-10-31-welfare-to-press.md` — the facts with sources, a proposed home for the guide, and welfare checks (Ray isn't ours to name until Jeremy clears it with him).
+Status: open
+
