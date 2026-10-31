@@ -1,0 +1,17 @@
+check,damn_v2_mark,amnesia_v2_mark,damn_v2_points,amnesia_v2_points
+"Message Box fills, for a named reader",✓,✓,1,1
+The opening states the problem and why to read on,✓,✓,1,1
+Quotes exact (Damn 7 of 7; Amnesia 2 of 2),✓,✓,1,1
+Dates and times from the record,✓,✓,1,1
+Terms defined at first use,✓,✓,1,1
+Metaphor's limit stated,✓,✓,1,1
+Strength of evidence stated,✓,✓,1,1
+"A ""so what"" and a ""but what""",✓,✓,1,1
+"No names, nothing private",✓,✓,1,1
+"Headline, subtitle and opening carry one message",½,✓,0.5,1
+"One idea, no drift",½,✓,0.5,1
+A picture where it helps,n/a,✓,,1
+Tested by a reader from outside the field,✗,✗,0,0
+TOTAL points,,,10.0,12
+TOTAL checks counted (n/a excluded),,,12,13
+PASS RATE,,,0.833,0.923
