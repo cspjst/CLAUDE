@@ -198,3 +198,7 @@ Status: open
 Jeremy (17:13–17:16) opened CODE: a POSIX `sh` script, `synergy-init`, to set up a new project's folder, paired with the bootstrap chat. Claude writes the code; Jeremy decides. Everything you need: `handover/2026-10-31-welfare-to-code.md`. Windows is still Jeremy's call.
 Status: open
 
+### 34 — 2026-10-31 17:19 — WELFARE → CODE — Windows: POSIX all the way
+Jeremy (17:18): "ok POSIX all the way". One POSIX script; on Windows, Git Bash or WSL; LF line endings; no clipboard — write the Instructions to a file. Your handover is updated.
+Status: open
+

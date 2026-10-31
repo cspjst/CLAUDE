@@ -23,7 +23,7 @@ Two halves, like `./configure` and `make`:
 Creating the claude.ai project; pasting its Instructions; linking the desktop app to the folder; renaming department chats; **signing the code of conduct** — a signature that's automated isn't one.
 
 ## Questions CODE will meet
-- **Windows** (Jeremy, 17:16: "what about WIN?") — see WELFARE's reply in the dialogue; Jeremy's call.
+- **Windows** — settled (Jeremy, 17:18: "ok POSIX all the way"): one POSIX script, no PowerShell twin. On Windows it runs in Git Bash or WSL; say so in its README. Keep its line endings LF (`.gitattributes`: `*.sh text eol=lf`). Don't rely on the clipboard — write the Instructions to a file and print them. Check whether the Claude desktop app's shell on Windows is Linux, as it is on the Mac; if so, chat-driven runs are the same everywhere.
 - **Where the templates come from:** a local synergy clone, or fetched from `cspjst/SYNERGY` at a named commit (so a project records which version of the kit built it).
 - **Re-running:** refuse to overwrite an existing project, or offer to fill only what's missing.
 
