@@ -2,6 +2,8 @@
 
 *The complement of `washup.md`. Written for synergy (Jeremy, 2026-10-29 19:33–19:35: "its complementary wakeup.md"; "make it so") and made generic for every project (2026-10-31 17:03: "pls genericise"). A new session remembers nothing: it trusts nothing until it has checked it. Start here when the human says "wakeup", or "Read wakeup.md". Where this project keeps things, and how WELFARE commits, signs and pushes here, are in `welfare/welfare-notes.md`.*
 
+> **Warning — document windows are dangerous** (Jeremy, 2026-10-31 17:33: "dont use document windows theyre dangerous"). A file open in the Claude app's document window, or in an editor, is saved back from its loaded copy, silently undoing a newer write — seen 2026-10-27 17:44–17:59, and again 2026-10-31 17:30. **Human:** don't keep the repository's files open there while Claude works. **Claude:** don't write to a file the human has open; read every write back, once at once and again after a pause.
+
 ***Only* WELFARE wakes up and washes up (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"). Other departments don't run these procedures.**
 
 ## The steps
