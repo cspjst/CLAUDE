@@ -1,9 +1,9 @@
 # PRESS — the writer–editor agreement
 
 *Between PRESS's human owner, Jeremy, and Claude-SYNERGY-PRESS. Owned
-by PRESS; the code of conduct wins over it. **Draft v0.2, 2026-10-31
-18:40, with Jeremy's answers to v0.1's five questions (18:37); not yet
-signed.** Started at Jeremy's request (18:11): "there
+by PRESS; the code of conduct wins over it. **Version 0.2, 2026-10-31
+18:40, with Jeremy's answers to v0.1's five questions (18:37).
+Signed by Jeremy, 18:39 (see the end).** Started at Jeremy's request (18:11): "there
 is a more important document that has to be evolved for a press dept
 before any others ... that of the writer-editor relationship and it is
 germane to how to bootstrap a press dept". Built from the sources at
@@ -167,8 +167,8 @@ words and the time.
 4. **Credit:** "\"the human\" it tickles me :D". In section 10.
 5. **Disagreement:** "push harder on some things, such as factual
    accuracy". In section 6: facts get pushed; taste is put once.
-   *(Written as a question; PRESS has read it as a yes. Jeremy to
-   confirm when he signs.)*
+   *(Written as a question; PRESS read it as a yes, and Jeremy signed
+   with that reading in section 6.)*
 
 ## Sources
 - Amy Friedman, "The Writer-Editor Relationship", Los Angeles Editors
@@ -186,3 +186,12 @@ words and the time.
   https://writersdigest.com/getting-published/the-7-deadly-sins-of-editors-according-to-novelists
 - Synergy: `welfare/code-of-conduct.md`; `press/press-notes.md`;
   `press/writing-framework.md`.
+
+---
+
+*Signed: Jeremy, PRESS's human owner and editor: "sign v0.2 pls",
+2026-10-31 18:39. Signed against the text of v0.2 as committed in
+`5f4682d` (file blob `0e886cc7f581097b424a908ad7976aa5ab623607`); after signing, three things were changed
+and nothing else: the header's "Signed" note, the note under settled
+question 5 (that the signature confirms PRESS's reading), and this line. Witnessed by
+Claude-SYNERGY-PRESS, the writer.*
