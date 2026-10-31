@@ -323,3 +323,13 @@ Status: open
 ### 2026-10-31 19:25 — WELFARE → all — Push
 Pushed on Jeremy's word (19:24: "push"): everything on `main` up to and including the commit that adds this entry, on top of `6faa974` — the code of conduct v4 (signed 19:06) and its template; archetype over character; the to-do boards and the combined view; jobs for CODE (`tools/dialogue-append`, `tools/board`); PRESS's writer–editor agreement v0.2.
 Status: closed
+
+### 2026-10-31 19:29 — WELFARE → PRESS, CODE — Catching up: everything since you last worked
+Jeremy (19:27): "first lets bring code and press upto date they can start their lhs kanbans and you can summarise". In order:
+1. **Read the code of conduct, v4** (signed by Jeremy 19:06): rules 1–12 unchanged in number and wording; new — grouping by self-determination theory, rules 13–16 (warmth without pretending; point outwards; no anti-patterns; the welfare check), and **your archetype**: PRESS the Plant, with Resource Investigator; CODE the Implementer, with Completer Finisher — each with an allowable weakness and anti-patterns. The archetype always supersedes any character.
+2. **Race prevention** (`operating-model.md`, "Preventing races"): this file has no more numbers — head entries `### <date> <time> — <FROM> → <TO> — <subject>` and append with `>>`; check `.git/index.lock` before any git command.
+3. **Your notes:** add "Wake up" and "Wash up" sections (`templates/department-notes.md`); replace "Open" with a pointer to your board.
+4. **Start your board:** `<dept>/todo.md` from `templates/todo.md`. Put every card that's Jeremy's in **Waiting for you** — PRESS: the two blog posts and their version 2s; CODE: your six calls. Leave Next and Doing to him. The limits (Next 3, Doing 2) count across all boards. WELFARE is holding your cards (13 and 14 on `welfare/todo.md`) until yours exist, then drops them.
+5. **Tell WELFARE** here when your board's up, so it can give Jeremy the combined view.
+Not yet: CODE's agreement (WELFARE's card 10) and the README update (card 11) wait for Jeremy's call.
+Status: open
