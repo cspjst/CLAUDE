@@ -1,6 +1,6 @@
 # WELFARE — Jeremy's board
 
-*Owned and written by WELFARE, for Jeremy: a Markdown kanban (Jeremy, 2026-10-31 19:16–19:21: "i think we need a todo.md in each dept for the human more than anything"; "md kanban seem the way forward so it stays under the repo's versioning"). Only what Jeremy alone can decide, do or read. Each card is named by its date and number, so other documents point to it ("see todo 2026-10-31-2"). This board also carries the cards no single department owns.*
+*Owned and written by WELFARE, for Jeremy: a Markdown kanban (Jeremy, 2026-10-31 19:16–19:21: "i think we need a todo.md in each dept for the human more than anything"; "md kanban seem the way forward so it stays under the repo's versioning"). Only what Jeremy alone can decide, do or read. Each card is named by its date and number, so other documents point to it ("see WELFARE todo 2026-10-31-2" — other boards use the same names, so say whose). This board also carries the cards no single department owns.*
 
 *How it works: Jeremy chooses what moves to **Next** and **Doing**; WELFARE moves the cards when he says. **Limits: Next at most 3, Doing at most 2 — across every department's board together**, because Jeremy's load is one load (Jeremy, 19:23: "3" — department boards as the truth, plus a combined view). A cap, not a target; a starting point, his to change. Before a card moves into Next or Doing, its department checks the combined view (`tools/board`, once CODE has written it; until then, WELFARE's report at wakeup). **Done this week** is cleared at the weekly welfare check; git keeps the history. Labels: **Decide**, **Do**, **Read**. No deadlines unless Jeremy sets them. Please don't edit this file yourself: one writer per file, and no document windows on the repository.*
 
@@ -17,8 +17,6 @@
 - **2026-10-31-10 — CODE's agreement before its code.** [Decide] CODE opened before "the agreement first" was the rule. *Proposal:* CODE drafts its agreement at its next session, before `tools/dialogue-append`; you sign it. *A yes or no.*
 - **2026-10-31-11 — Brief PRESS to bring the README up to date** with today's work: the code of conduct v4, archetypes, the boards, race prevention. [Decide] *A yes or no; PRESS drafts.*
 - **2026-10-31-12 — Tidy the operating model before you sign it.** [Decide] It has grown by accretion — superseded decisions struck through in place, lessons appended. *Proposal:* a consolidated v0.8 — the model as it stands, with the history left to the historiography — then card 1. *A yes or no.*
-- **2026-10-31-13 — PRESS's two blog posts**, "Your AI doesn't give a damn about you!" and "Your AI has amnesia!", each with a version 2 and scores (`press/posts/`, `press/v2-scores.csv`). [Read] *PRESS's card, held here until PRESS starts its board.* *Twenty minutes.*
-- **2026-10-31-14 — CODE's six open calls** for `synergy-init` — where templates come from, re-running, GitHub, where the script lives, `.gitignore`/`.gitattributes`, testing on macOS and Windows (`code/code-notes.md`, "Open"). [Decide] *CODE's card, held here until CODE starts its board; you asked CODE to begin with them.* *Ten minutes.*
 
 ## Next (at most 3)
 - *(Empty — you choose.)*
