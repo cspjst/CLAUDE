@@ -6,7 +6,7 @@
 **Jeremy.** He opened PRESS (2026-10-27 20:51–20:55), decides what it publishes, and signs off its frameworks (2026-10-31 18:07).
 
 ## The agreement comes first
-`press/writer-editor-agreement.md`: who does what to the words, and who has the last word, between Jeremy (editor and publisher) and the writer (Claude-SYNERGY-PRESS). Read it every session, straight after the code of conduct. Jeremy (2026-10-31 18:11): "there is a more important document that has to be evolved for a press dept before any others ... that of the writer-editor relationship and it is germane to how to bootstrap a press dept". **Draft v0.1, not yet signed.**
+`press/writer-editor-agreement.md`: who does what to the words, and who has the last word, between Jeremy (editor) and the writer (Claude-SYNERGY-PRESS). Read it every session, straight after the code of conduct. Jeremy (2026-10-31 18:11): "there is a more important document that has to be evolved for a press dept before any others ... that of the writer-editor relationship and it is germane to how to bootstrap a press dept". **Draft v0.2 (18:40), with his answers; awaiting his signature.**
 
 ## Remit
 - Telling the synergy story to readers outside the project: the repository's `README.md`, blog posts, guides and other public writing about working with Claude.
@@ -83,7 +83,7 @@
 - **Blog posts, drafts for Jeremy, not pushed:** "Your AI doesn't give a damn about you!" and "Your AI has amnesia!" in `press/posts/`, each in an original and a `-v2`, with Blogger versions of the originals. Version 2 scores (self-marked, against a framework not yet signed off): 8.5 and 9 out of 10, in `press/v2-scores.csv` and `press/v2-checklist.csv`.
 
 ## Open — Jeremy's calls
-- **The writer–editor agreement** v0.1: five questions at its end, then his signature.
+- **The writer–editor agreement** v0.2: his five answers are in; sign it, naming the version, or say what to change.
 - **Sign off `press/writing-framework.md` v0.1,** or say what to change first.
 - **Which version of each post,** then Blogger versions of the winners, a link from the README, and when to publish.
 - **Frameworks for diagrams, guides and tables:** to propose and develop with Jeremy when each is next needed.
