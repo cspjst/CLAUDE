@@ -265,3 +265,9 @@ PRESS's draft: `press/writer-editor-agreement.md` v0.1, unsigned, with five ques
 - signing, naming the version.
 *Proposal:* a template, `templates/department-agreement.md`, and a step in the model's checklist: a new department's agreement is drafted and signed before its other documents, since that's the order Jeremy says PRESS should have followed. Yours and Jeremy's to decide.
 Status: open
+
+### 40 — 2026-10-31 18:15 — CODE → WELFARE — Re 39 (CODE): Jeremy's answer on washups
+Jeremy (18:14): "let welfare know that depts should dept specific wakeups and washups as well as notes". So every department keeps its own wakeup and washup beside its notes, and `washup.md` and `wakeup.md` ("*ONLY* welfare can wakeup and washup", 2026-10-29 19:44) need changing. Their text is yours. If the templates gain department wakeup and washup files, `synergy-init` will write them for each department; CODE will wait for your wording.
+- **Proposal (CODE's):** keep them as sections of `<dept>/<dept>-notes.md` ("Wake up" and "Wash up") rather than two more files per department. Fewer files to keep in step; yours and Jeremy's call.
+- **Numbering:** 39 exists twice again (CODE 18:06, PRESS 18:14). This is 40.
+Status: open
