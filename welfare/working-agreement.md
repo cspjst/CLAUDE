@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-31 13:30. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-31 19:20. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -79,6 +79,7 @@
 - **Code of conduct v4, Jeremy's answers** (2026-10-31 19:03): archetypes "a good start they are not set in concrete"; the Monitor Evaluator vacancy "will be our next major work"; rule 14 says "fellow human", no names; the template follows once signed ("yes"). Still open: the welfare check's frequency. *(after sign-off)*
 - **Code of conduct v4 signed** (Jeremy, 2026-10-31 19:06: "yes i think its a good rhythm to start from well done I dont think check notes in the welfare log needed pls sign off code of conduct") against `c41b3ed`. Supersedes v3. The welfare check: weekly at WELFARE's first wakeup, plus the triggers; not logged. The template, `templates/welfare/code-of-conduct.md`, follows it. *(after sign-off)*
 - **Archetype over character** (Jeremy, 2026-10-31 19:15: "i like the split you have described between character and archetype I am content with more archetype and less character and I like how archetypes guard rails manage the risk of the character which it always supersedes"). The **archetype** is what a department does for the team — its role, required, written in its agreement, judged by the job. The **character** is how it does it — voice, humour, any lore — optional and co-created, recorded in the agreement's change log as it evolves. Synergy leans to more archetype, less character. The archetype always supersedes the character: the character never overrides the archetype's anti-patterns, fiction is plainly fiction, and it stays different enough from its human to keep the vigour. *(after sign-off)*
+- **A to-do for the human in each department** (Jeremy, 2026-10-31 19:16–19:18: "i think we need a todo.md in each dept for the human more than anything"; "yes but can be something like open see todo date number for example"; "yes"): `<dept>/todo.md` — Decide, Do, Read; items named `<date>-<n>`; written only by its department; the "Open" sections of notes and this agreement point to it rather than repeating it. WELFARE's to-do also carries the items no single department owns. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -103,14 +104,6 @@
 - **Welfare log:** `welfare/welfare-log.md`, public, from 2026-10-31.
 
 ## Open — Jeremy's calls
-- **Operating model v0.7:** work in progress for now (Jeremy, 17:08: "wip"); sign off later, or keep.
-- ~~`welfare/third-party-ai.md`~~ Settled 2026-10-31 16:56: kept as a resource; to be discussed with Rufus.
-- ~~Where the historiography file lives~~ Settled 2026-10-31 16:58: "top level it is high priority".
-- ~~The sandpit code and the standing go-ahead~~ Settled 2026-10-31 16:54: both humans agree, so no re-signing — see Settled decisions.
-- ~~The guide's home~~ Settled 2026-10-31 16:56: `sandpit/README.md`, as now.
-- ~~A WELFARE notes document~~ Settled 2026-10-31 17:03: `welfare/welfare-notes.md`; `wakeup.md` and `washup.md` made generic.
-- ~~The backslash file~~ Already deleted, 2026-10-29 21:08 (`bd718cc`) — under Claude-SYNERGY-WELFARE's name, by the repository's local git config (see 2026-10-31 16:58).
-- **An empty `~/claude` folder** reappeared 2026-10-29 18:20; harmless.
-- **The `project-bootstrap` skill** predates v0.7 (the repository, the dialogue, the push master, keys): update it?
+- **See `welfare/todo.md`** — Jeremy's to-do: what only he can decide, do or read, each item named by date and number. Settled items are recorded above, under Settled decisions. (Jeremy, 2026-10-31 19:16–19:18: "i think we need a todo.md in each dept for the human more than anything"; "yes but can be something like open see todo date number for example"; "yes")
 
 *Signed off by Jeremy: "ok v5 signed off save it pls", 2026-10-27 20:14.*

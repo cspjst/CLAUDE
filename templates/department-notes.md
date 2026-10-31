@@ -13,7 +13,7 @@
 - <What exists, what works, what's in progress — honestly worded.>
 
 ## Open — <HUMAN>'s calls
-- **<Question>:** <the options, and any proposal clearly labelled as Claude's>.
+- See `<dept>/todo.md` — e.g. "see todo <date>-<n>". Each call lives there, once.
 
 ## Wake up
 *The department's own wakeup (the project's is WELFARE's `wakeup.md`).*
