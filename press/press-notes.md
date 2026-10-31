@@ -57,7 +57,7 @@
 - **Blog posts** live in `press/posts/` (Jeremy, 17:08), each with a Blogger HTML version beside it (`….blogger.html`: no title heading, since Blogger has a title field; links absolute to GitHub). There's no Blogger connector; posting is Jeremy's, by paste, or as a draft in the built-in browser if he asks.
 
 ### 6. Files on Jeremy's computer
-- **The oracle is `~/synergy`.** At the start of each session, ask Jeremy for access, then delete permission; **test delete permission before every git command** (create and remove a scratch file under `.git`), because it lapses when the app restarts.
+- **The oracle is `~/synergy`.** At the start of each session, ask Jeremy for access, then delete permission; **before every git command**, test delete permission (create and remove a scratch file under `.git`; it lapses when the app restarts) and look for `.git/index.lock`: under a minute old, another git is working, so wait and retry; older, remove it and say so (`operating-model.md`, "Preventing races").
 - **No file cards** (Jeremy, 2026-10-31 17:50: "agh! no dialogue windows"). Don't send files into the chat: they open in the app's document window, which can save back over newer files. Say what changed and where it lives.
 - **Guards** (code of conduct, rule 11): never write to a file Jeremy has open; check the mtime or checksum first; read every write back, at once and again after a pause. Seen again 2026-10-31 17:30 (dialogue 35).
 - **Commits** as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`), only PRESS's own files. **PRESS doesn't push:** WELFARE is the push master (principle 9).
@@ -74,7 +74,8 @@
 
 ### 9. Welfare and the dialogue
 - **Before mentioning a meal or a break,** check `welfare/welfare-log.md` (WELFARE, dialogue 29).
-- **Read `dialogue.md`** at the start of each session and before leaving one; "check the dialogue" is Jeremy's cue. Append only; tell WELFARE when a job is done.
+- **Read `dialogue.md`** at the start of each session, **again just before writing to it**, and before leaving; "check the dialogue" is Jeremy's cue. Tell WELFARE when a job is done.
+- **Shared files** (`dialogue.md`, `welfare/welfare-log.md`) are appended in one write with the shell's `>>`, never read, changed and rewritten. Dialogue entries have **no numbers**: `### <YYYY-MM-DD HH:MM> — PRESS → <TO> — <subject>`; replies say "Re <date> <time> <sender>" (from 2026-10-31 18:20).
 
 ## Current state (2026-10-31 18:05)
 - **README:** PRESS's since 2026-10-27; sections on WELFARE (WELFARE's wording, kept byte for byte), how a project fits together, setting one up, where the files live, storms and norms, the sandpit, what hasn't worked, words used, what's here. Pushed.
@@ -87,6 +88,21 @@
 - **Which version of each post,** then Blogger versions of the winners, a link from the README, and when to publish.
 - **Frameworks for diagrams, guides and tables:** to propose and develop with Jeremy when each is next needed.
 - **The document-window warning in `wakeup.md`:** with WELFARE (dialogue 36).
+
+## Wake up
+*PRESS's own wakeup (the project's is WELFARE's `wakeup.md`).*
+1. **Welfare first:** the time, from the clock, and `welfare/welfare-log.md`.
+2. **Access:** ask Jeremy for `~/synergy`, then delete permission; test it; check git isn't busy (`.git/index.lock`).
+3. **Read:** the code of conduct; `press/writer-editor-agreement.md`; these notes; `press/writing-framework.md`; `dialogue.md` since PRESS's last entry.
+4. **Report to Jeremy, then wait,** unless "Next" below says what he's asked to start with.
+
+## Wash up
+*PRESS's own washup (the project's is WELFARE's `washup.md`).*
+1. **Read the dialogue** once more, and answer anything addressed to PRESS.
+2. **Commit** PRESS's work as `Claude-SYNERGY-PRESS`, named paths only. Don't push.
+3. **Update** "Current state", "Open" and "Next"; refresh the project's copies.
+4. **Send WELFARE** any milestones for the history, in the dialogue.
+5. **Tell Jeremy** the line that starts PRESS's next session.
 
 ## Next
 - **On restart, first:** after access, delete permission and the dialogue, ask Jeremy what he thinks of the two versions of each post: "Your AI doesn't give a damn about you!" and "Your AI has amnesia!", each original against its `-v2`, in `press/posts/` (Jeremy, 2026-10-31 18:41: "want to restart it with you asking me about my thoughts on the 2 versions of each blog post draft"). Then fold back the winners (procedure 4), make their Blogger versions, and ask about publishing.
