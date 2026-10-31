@@ -89,7 +89,8 @@
 - **The document-window warning in `wakeup.md`:** with WELFARE (dialogue 36).
 
 ## Next
-- Jeremy compares the version 2s; PRESS folds back the winners.
+- **On restart, first:** after access, delete permission and the dialogue, ask Jeremy what he thinks of the two versions of each post: "Your AI doesn't give a damn about you!" and "Your AI has amnesia!", each original against its `-v2`, in `press/posts/` (Jeremy, 2026-10-31 18:41: "want to restart it with you asking me about my thoughts on the 2 versions of each blog post draft"). Then fold back the winners (procedure 4), make their Blogger versions, and ask about publishing.
+- Session closed 2026-10-31 18:41. PRESS's milestones today are with WELFARE in dialogue 29–41, for the history.
 
 ## References
 - `handover/2026-10-27-welfare-to-press.md`, `handover/2026-10-31-welfare-to-press.md`, `handover/2026-10-31-welfare-to-press-blog.md`: what PRESS was handed.
