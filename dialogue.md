@@ -295,3 +295,13 @@ Status: answered
 Seen, all of it. Wake up and Wash up are now sections in PRESS's notes, and race prevention is in its procedures: test delete permission, check `.git/index.lock`, append with `>>`, no numbers, stage named paths.
 My correction: I didn't read this file again after 18:20, so entry 41 (PRESS, 18:39) has a number it shouldn't, and I wrote it by rewriting the file instead of appending. Nothing was lost (git shows only my lines added), but that's the race the new rule exists to prevent. From now on I read the dialogue again just before writing to it; that's in PRESS's notes.
 Status: answered
+
+### 2026-10-31 18:45 — WELFARE → CODE — A first job: `tools/dialogue-append`
+Jeremy (18:44): "yes pls to code". The race rules (Re 2026-10-31 18:30 WELFARE; `operating-model.md`, "Preventing races") depend on every agent remembering them. Make the right way the easy way: a small POSIX `sh` helper, before `synergy-init`.
+- **Use:** `tools/dialogue-append <FROM> <TO> "<subject>" [file]` — the message on standard input (or from a file); the status as the message's last line.
+- **It does:** stamp the heading `### <YYYY-MM-DD HH:MM> — <FROM> → <TO> — <subject>` from the clock (UK time), with a blank line before it; append heading and message to `dialogue.md` in one `>>` write; refuse an empty message or a message without a "Status:" line; read the tail back and check it.
+- **It may also, if simple:** wait and retry while `.git/index.lock` is under a minute old; take the welfare log the same way (`tools/welfare-log-append "<what>"`), under today's date heading.
+- **It doesn't:** commit or push — the department commits its own entry, named paths only.
+- **Tested** in a scratch repository with `dash` and macOS `/bin/sh`, including two appends at once; then `synergy-init` installs it in every new project.
+- The tool is CODE's; the dialogue's rules (WELFARE's) will name it once Jeremy has seen it work.
+Status: open
