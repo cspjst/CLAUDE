@@ -21,6 +21,7 @@
 - **How PRESS writes:** `press/writing-framework.md` (v0.1, 2026-10-31 17:37; Jeremy, 17:35), drawn from four sources and synergy's rules. Run its checklist before Jeremy sees a piece.
 - **Jeremy's suggestions may be tidied** (2026-10-31 17:49: "my suggestions will always warrant tidying"): headline ideas and the like. His quotes and his documents stay untouched (rule 5).
 - **Posts, 2026-10-31 17:50:** split in two at Jeremy's word (17:48): `press/posts/2026-10-31-your-ai-doesnt-give-a-damn.md` (welfare) and `press/posts/2026-10-31-your-ai-has-amnesia.md` (memory), each with a Blogger version; they replace `…documents-are-the-memory…`.
+- **No file cards** (Jeremy, 2026-10-31 17:50: "agh! no dialogue windows"): don't send files into the chat; they open in the app's document window, which can save back over newer files. Say what changed and where it lives instead.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
 ## Current state (2026-10-31 13:28)
