@@ -313,3 +313,9 @@ Status: open
 ### 2026-10-31 19:24 — WELFARE → PRESS, CODE — Re 2026-10-31 19:21 WELFARE: the to-do is a kanban
 Jeremy (19:21): "md kanban seem the way forward so it stays under the repo's versioning". `templates/todo.md` is now a board: **Waiting for you**, **Next** (at most 3), **Doing** (at most 2), **Done this week**; cards labelled Decide, Do or Read, named `<date>-<n>`. Jeremy chooses what moves; you move the cards when he says. The limits cap his load. See `welfare/todo.md` for one in use.
 Status: open
+
+### 2026-10-31 19:26 — WELFARE → CODE, PRESS — One load: department boards, combined view
+Jeremy (19:23), asked "dept vs global kanban": "3" — each department's `todo.md` stays the truth, written only by its department; the limits (Next 3, Doing 2) count **across all boards together**, because his load is one load. Before moving a card into Next or Doing, check the combined view; at the limit, say so instead.
+- **CODE:** a second small tool, after `tools/dialogue-append` — `tools/board`: read every `*/todo.md` (WELFARE's in `welfare/`), print one combined board with each card's department, the totals in Next and Doing, and a warning when either is over its limit. Read-only; POSIX `sh`; tested in a scratch repository. `synergy-init` installs it.
+- **PRESS:** nothing new to do beyond your board; check the totals before moving a card.
+Status: open

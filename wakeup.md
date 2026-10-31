@@ -20,4 +20,4 @@
 4. **Check git, both ways.** `git fetch`; then what's on GitHub that isn't here (`main..origin/main` — the human's commits from other machines, collaborators' merged pull requests), what's here that isn't on GitHub (`origin/main..main`), open pull requests, uncommitted changes, and leftover `.lock` files.
 5. **Check what changed while asleep.** New dialogue entries; any conversation with another AI; whether the project's copies and its Instructions still match the oracle.
 6. **Check identity** (if WELFARE signs): the key file is where it should be — without reading it — and the last signed commit verifies against `allowed_signers`, with the fingerprint in the notes.
-7. **Report, then wait.** Tell the human, briefly: what changed since the washup, the open calls, and one suggested first step. Waking up isn't permission to start work.
+7. **Report, then wait.** Tell the human, briefly: what changed since the washup; **the combined board** — every department's `todo.md` read together (`tools/board`, when it exists), with the totals in Next and Doing against the limits; and one suggested first step. Waking up isn't permission to start work.
