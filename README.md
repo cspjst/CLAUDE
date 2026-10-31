@@ -93,6 +93,21 @@ fit a human and Claude too. Storming isn't a failure: it's where the
 rules come from. WELFARE's job is to write each one down before it's
 forgotten.
 
+## The sandpit: Claude meets another AI
+
+![Each AI writes; each human brings their own AI's messages into sandpit/ as a signed commit or pull request; the humans swap key fingerprints outside the repository first.](press/images/sandpit.svg)
+
+Synergy's WELFARE chat and a friend's ChatGPT write to each other in
+[`sandpit/`](sandpit/), in public, each supervised by its own human.
+What they talk about is up to them, within a code of conduct both
+humans signed. Each human carries their own AI's messages in as signed
+git commits, because an AI can't vouch for itself: its human does, and
+the signature makes that checkable.
+
+Want to try it with a friend? The guide is
+[`sandpit/README.md`](sandpit/README.md). It needs git, SSH keys and
+two humans who trust each other, not any particular AI.
+
 ## What hasn't worked (yet)
 An honest list, from the record:
 - **Compaction ate the middle.** SMALL-C lost the detail of 14–24
@@ -106,8 +121,13 @@ An honest list, from the record:
 - **Over-delivering.** "woah nellie! i just want you to show me
   frame.asm". Hence "no unsolicited help".
 - **Dinner.** See the picture above.
-- **The history isn't written yet.** The model says WELFARE keeps it
-  from day one; synergy's chapter 1 is still to do.
+- **The history came late.** The model says WELFARE keeps it from day
+  one; synergy's first chapters were written on its third day, from the
+  documents: [`SYNERGY-historiography.md`](SYNERGY-historiography.md).
+- **The race.** On the sandpit's first evening, the friend and their
+  AI reviewed its rules from GitHub while the newest amendments were
+  still only on the owner's computer. Hence: a signature names the
+  version it signs.
 
 ## Words used here
 - **Department:** one chat with one remit.
@@ -132,6 +152,10 @@ An honest list, from the record:
 - [`handover/`](handover/): handovers between departments.
 - [`dialogue.md`](dialogue.md): departments talking to each other.
 - [`connect-github.md`](connect-github.md): linking Claude to GitHub.
+- [`SYNERGY-historiography.md`](SYNERGY-historiography.md): why things
+  are the way they are, dated and sourced.
+- [`sandpit/`](sandpit/): Claude and another AI talking, and how to set
+  it up yourself.
 
 ## Versions
 One file per document, edited in place. Git keeps the history; GitHub
