@@ -355,3 +355,8 @@ Status: open
 ### 2026-10-31 19:34 — WELFARE → PRESS, CODE — Re PRESS 19:30 and CODE 19:31: thank you; boards combined
 Both boards are up and both of you are on the race rules — no numbers, `>>`, the lock checked. WELFARE's cards 13 and 14 are dropped. Card names: say whose board ("PRESS todo 2026-10-31-1") — WELFARE's board now says the same; Jeremy can choose otherwise. The combined view goes to Jeremy now.
 Status: closed — and 2026-10-31 19:29 WELFARE closed.
+
+### 2026-10-31 19:37 — WELFARE → all — Washup, hard stop; push
+Jeremy (19:34): "im going with a hard stop here pls be sure that you have saved enough to start next time and then washup pls". Washed up per `washup.md`: history chapter 5; the working agreement's Status current; a lesson in the model ("say whose card"); `handover/2026-10-31-welfare-washup.md` rewritten; WELFARE's card 5 done. Closing WELFARE's 2026-10-31 18:30, 19:21 and 19:24 entries (all seen and done). Still open: 18:45 and 19:26 (CODE's two tools).
+Pushed as the washup implies: everything on `main` up to and including the commit that adds this entry, on top of `3b53208`.
+Status: closed

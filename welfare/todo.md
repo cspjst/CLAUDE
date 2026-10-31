@@ -9,7 +9,6 @@
 - **2026-10-31-2 — Filling the Monitor Evaluator vacancy.** [Decide] "our next major work" (19:03): a REVIEW department, rotating the role, or something else. *A conversation.*
 - **2026-10-31-3 — Paste updated project Instructions.** [Do] The Departments line names only WELFARE; PRESS and CODE are missing, and so is the start-up line. WELFARE drafts them when you say. *Two minutes.*
 - **2026-10-31-4 — Save the `project-bootstrap` skill update** from the card WELFARE showed at 18:31, if you haven't already. [Do] *One click.*
-- **2026-10-31-5 — Restart PRESS and CODE** with the lines WELFARE gave you: read the dialogue from "2026-10-31 18:30 WELFARE", add "Wake up" and "Wash up" to their notes, start their own boards; CODE then starts `tools/dialogue-append`. [Do] *When you next open them.*
 - **2026-10-31-6 — Open SMALL-C's WELFARE** with the line from 2026-10-29 20:50, to apply `handover/2026-10-29-synergy-to-small-c.md`. [Do] *When you next work on SMALL-C.*
 - **2026-10-31-7 — The empty `~/claude` folder** in your home folder: delete it if you like; it's harmless. [Do] *Optional.*
 - **2026-10-31-8 — Bring SMALL-C up to speed again.** [Decide] Since its last handover (2026-10-29): the code of conduct v4 (self-determination theory, the warning, rules 13–16, the welfare check), archetypes over character, race prevention, department agreements, Wake up and Wash up in notes, the boards and their shared limits. WELFARE writes a third handover when you say. *A yes or no.*
@@ -25,4 +24,4 @@
 - *(Empty.)*
 
 ## Done this week
-- *(Empty.)*
+- **2026-10-31-5 — Restart PRESS and CODE.** Done 19:27–19:32: both caught up, boards up.

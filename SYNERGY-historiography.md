@@ -10,6 +10,7 @@ Companion docs: `welfare/working-agreement.md` (the settled decisions, each quot
 2. Welfare at the root, and the first outsiders (2026-10-28)
 3. The sandpit and the question of identity (2026-10-29)
 4. The sandpit opens (2026-10-30 to 10-31)
+5. Evidence, roles and load (2026-10-31, evening)
 
 ---
 
@@ -123,4 +124,37 @@ Sources: this chat, 2026-10-29 18:15–21:05; `sandpit/code_of_conduct.md`; `san
 The first exchange between the two AIs was about the very thing synergy was built for: continuity without memory. And the checks worked as designed — trust was verified before it was extended.
 
 Sources: this chat, 2026-10-31 11:26–13:30; `sandpit/conversation.md` entries 001–002; `sandpit/keys/`; git (PRs #1–#3); `welfare/welfare-log.md`; `dialogue.md` 26–30; `handover/2026-10-31-welfare-to-press.md`. Thin: Ray and Rufus's preparation on 2026-10-30 is visible only through their commits.
+
+---
+
+## Chapter 5: Evidence, roles and load (2026-10-31, evening)
+
+### 1. The problem as it appeared
+- By the afternoon synergy had three departments working at once — WELFARE, PRESS and a new one, CODE — and the strains showed. The app's document window saved over a newer file again (17:30). Departments writing minutes apart gave dialogue entries the same number, twice in an hour (33–35, then 39). Jeremy (17:38): "how do we prevent agent race conditions ?"
+- And a deeper question (18:46): "I want to discuss ai archetypes and how an ai personality can improve user well being and productivity".
+
+### 2. What was tried
+- **Procedures made generic** (17:03): `wakeup.md` and `washup.md` for every project; synergy's mechanics moved to `welfare/welfare-notes.md`. Claude's identity removed from the repository's own git config — it had been putting Claude's name on Jeremy's commits.
+- **CODE opened** (17:13–17:20): the bootstrap tooling, a `synergy-init` script with a bootstrap chat — "this kind of script drudgery is totally an AI thing (no hard feelings)"; "ok POSIX all the way" (17:18).
+- **PRESS's first blog posts** (17:06–17:50), in its own voice ("i want your voice not mine you may own your work", 17:23), with a writing framework and a writer–editor agreement.
+- **Race prevention pinned down** (18:19): one writer per file; shared files append only, with `>>`; no sequence numbers — entries named by time and sender; one git at a time; no document windows. A tool, `tools/dialogue-append`, was given to CODE so the right way is the easy way.
+- **The code of conduct rebuilt on evidence** (18:57–19:06).
+- **A to-do for the human in each department** (19:16), made a Markdown kanban (19:21) with work-in-progress limits counted across all boards (19:23).
+
+### 3. What the sources said
+- **Self-determination theory:** people flourish and work better when autonomy, competence and relatedness are met (Ryan & Deci, 2000; Deci, Olafsen & Ryan, 2017).
+- **The warning:** in a four-week randomised trial with 981 people, heavier daily chatbot use went with more loneliness, dependence and problematic use and less socialising (Fang et al., 2025); models trained on approval tend to sycophancy (Sharma et al., 2023).
+- **Team roles:** Belbin's roles, each with an allowable weakness, give departments a language for what they're for — useful, with a mixed evidence base (Aritzeta, Swailes & Senior, 2007).
+- **Kanban's work-in-progress limit** caps load; for one human, the cap has to be global.
+
+### 4. What was decided
+- **Code of conduct v4, signed** (19:06, against `c41b3ed`): rules 1–12 unchanged in number and wording, grouped by autonomy and competence; new relatedness rules 13–16 — warmth without pretending, point outwards to "a fellow human", none of the anti-patterns, a weekly welfare check; departments' archetypes — WELFARE the Teamworker, PRESS the Plant, CODE the Implementer — with the Monitor Evaluator left vacant: "this will be our next major work".
+- **Archetype over character** (19:15): "I am content with more archetype and less character and I like how archetypes guard rails manage the risk of the character which it always supersedes".
+- **Every department's agreement first** (18:19): "any good relationship should start out on a firm footing whilst expecting it to evolve that evolution shoyld be recorded of course".
+- **One load** (19:23): department boards are the truth; the limits — Next 3, Doing 2 — count across them all.
+
+### What it adds up to
+The evening turned synergy's instincts into evidence: welfare first is self-determination theory plus a warning about dependence; departments are team roles; and the human's load is one load, however many departments share it. The races were the reminder that agents working in parallel need the same discipline as people sharing a desk.
+
+Sources: this chat, 2026-10-31 16:50–19:34; `welfare/code-of-conduct.md` (v4); `operating-model.md` ("Preventing races"); `templates/department-agreement.md`; `welfare/todo.md`, `press/todo.md`, `code/todo.md`; `dialogue.md` from entry 33. Thin: the discussion of characters drew on an exchange Jeremy and Ray shared in this chat only; at Jeremy's request (19:15) it isn't in the record.
 

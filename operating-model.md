@@ -150,6 +150,7 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 6. **Human tools:** no document windows or editors on the repository's files while agents work. To look, use GitHub or Quick Look, which can't save.
 7. **Publishing:** push before asking anyone outside to read; sign the version you mean.
 8. **One push master:** WELFARE.
+9. **Say whose card:** each department's board names its cards `<date>-<n>`, so the names repeat across boards; refer to a card with its board — "CODE todo 2026-10-31-1" (PRESS and CODE, 2026-10-31 19:30–19:31).
 
 ## Setting up a new project — checklist
 1. Create the project; one-line description. Invoke the `project-bootstrap` skill, or copy synergy's `templates/` (`~/synergy/templates/`, or `cspjst/SYNERGY` on GitHub) into it.

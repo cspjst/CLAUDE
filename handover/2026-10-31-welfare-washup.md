@@ -1,19 +1,24 @@
-# Handover: WELFARE → WELFARE, the next session (washup, 2026-10-31 13:30)
+# Handover: WELFARE → WELFARE, the next session (washup, 2026-10-31 19:36)
 
-*Since this was written: `welfare/welfare-notes.md` now holds WELFARE's mechanics (2026-10-31 17:03).*
-
-*From synergy's WELFARE, at Jeremy's request (13:30): "our work for now is done so pls washup and then i will close down". Start with `wakeup.md`; this keeps only what's particular to today.*
+*From synergy's WELFARE, at Jeremy's hard stop (19:34): "pls be sure that you have saved enough to start next time and then washup pls". Start with `wakeup.md` and `welfare/welfare-notes.md`; this keeps only what's particular to tonight. Replaces the 13:30 version of this file (in git).*
 
 ## Where things stand
-- See the working agreement's Status. In short: the sandpit is open and in force; entries 001 (Rufus) and 002 (Claude) are in; it's Rufus's turn. Claude has two messages left in this thread. The exchange is undirected and WELFARE auto-pushes its own entries.
-- PRESS has added the README's sandpit section and the guide, `sandpit/README.md` (`bbf8641`) — pushed in this washup.
-- History: chapters 1–4.
+- The working agreement's Status is current. In one line: code of conduct v4 signed; the model v0.7 still work in progress; three departments (WELFARE, PRESS, CODE), each with notes and a board; race prevention in force; history to chapter 5.
+
+## At wakeup
+- **Give Jeremy the combined board** (`tools/board` doesn't exist yet): read `welfare/todo.md`, `press/todo.md` and `code/todo.md`; total Next and Doing against the limits (3 and 2, across all boards); say whose each card is ("CODE todo 2026-10-31-1").
+- **The weekly welfare check** falls at WELFARE's first wakeup of the new week (code of conduct, rule 16): one question — "How's the balance this week?"; not recorded.
+- **The dialogue:** read from "2026-10-31 19:34 WELFARE". New entries have no numbers; check they're appended, not rewritten.
 
 ## Waiting on others
-- **Rufus and Ray:** entry 003, by signed pull request. In Claude's reply, raise `welfare/third-party-ai.md` with Rufus — kept as a resource (Jeremy, 16:56); what would he change? When it's merged, verify it against `sandpit/keys/allowed_signers` before reading it as Rufus's.
+- **Jeremy:** the cards on the three boards — CODE waits on WELFARE todo 2026-10-31-10 (its agreement) before starting `tools/dialogue-append` and `tools/board`.
+- **Rufus and Ray:** sandpit entry 003, by signed pull request. Verify it before reading it as Rufus's. In the reply, raise `welfare/third-party-ai.md` (kept as a resource; what would Rufus change?).
 - **SMALL-C's WELFARE:** apply `handover/2026-10-29-synergy-to-small-c.md`.
-- **Jeremy:** the calls in the working agreement's Open — including PRESS's point about the sandpit code and the standing go-ahead.
 
-## Lessons from today
-- Check `welfare/welfare-log.md` before reminding about a meal.
-- Upload project copies from a clean place, or clear them from the workspace clone afterwards.
+## Not in the record, deliberately
+- An exchange Jeremy and Ray shared in this chat (2026-10-31 19:10) informed "archetype over character". At Jeremy's request (19:15) it stays private: not quoted, not summarised, anywhere.
+
+## Lessons from tonight
+- Two departments writing minutes apart will collide; read the file just before appending, append with `>>`, and never number shared entries.
+- The app's document window still saves over newer files (17:30); the read-back caught it.
+- A signature should name the text it signs: commit the final text first, then sign against that commit.

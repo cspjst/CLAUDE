@@ -1,6 +1,6 @@
 # SYNERGY — working agreement
 
-*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-31 19:20. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
+*Owned by WELFARE. The current rules and settled decisions; the code of conduct wins over it. Last updated 2026-10-31 19:36. Signed off at v5 (20:14); changes since are marked *(after sign-off)*. Earlier versions are in git history.*
 
 ## Roles
 - **Jeremy:** decides; rewrites; signs off the model and the code of conduct.
@@ -82,6 +82,7 @@
 - **A to-do for the human in each department** (Jeremy, 2026-10-31 19:16–19:18: "i think we need a todo.md in each dept for the human more than anything"; "yes but can be something like open see todo date number for example"; "yes"): `<dept>/todo.md` — Decide, Do, Read; items named `<date>-<n>`; written only by its department; the "Open" sections of notes and this agreement point to it rather than repeating it. WELFARE's to-do also carries the items no single department owns. *(after sign-off)*
 - **The to-do is a Markdown kanban** (Jeremy, 2026-10-31 19:20–19:21: "hmm maybe a kanban approach?"; "md kanban seem the way forward so it stays under the repo's versioning"): columns Waiting for you, Next, Doing, Done this week; labels Decide, Do, Read; work-in-progress limits — Next at most 3, Doing at most 2 — as a cap on Jeremy's load (WELFARE's starting point; his to change); Done cleared at the weekly welfare check. *(after sign-off)*
 - **Department boards, one combined view** (Jeremy, 2026-10-31 19:23: "dept vs global kanban"; "3"): each department's `todo.md` is the truth, written only by it; `tools/board` (CODE's, to come) reads them all into one combined board; the limits — Next 3, Doing 2 — count across all boards together. Until the tool exists, WELFARE reports the combined board at wakeup. *(after sign-off)*
+- **A hard stop** (Jeremy, 2026-10-31 19:34): "im going with a hard stop here pls be sure that you have saved enough to start next time and then washup pls". *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -91,19 +92,20 @@
   - **git** (2026-10-27 20:14) — status, remotes, commits; just report what happened.
 - Placeholders in templates: `<PROJECT>`, `<DEPT>`, `<HUMAN>`, `<date>`.
 
-## Status (2026-10-31 13:30, at the washup)
+## Status (2026-10-31 19:36, at the washup)
 - **Start here next time:** `wakeup.md`, then `handover/2026-10-31-welfare-washup.md`.
-- **Operating model:** v0.7 (`operating-model.md`), awaiting Jeremy's sign-off.
-- **Templates:** `templates/`, one file each; history named `<REPO>-historiography.md`; now also `department-agreement.md`, `dialogue.md` and `welfare/welfare-log.md`.
-- **Historiography:** `SYNERGY-historiography.md`, chapters 1–4 (2026-10-27 to 10-31), at the repository's root as the templates have it.
-- **SOPs:** `washup.md` and `wakeup.md` — only WELFARE runs them; a washup implies push all.
-- **The oracle:** `~/synergy`; GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`.
-- **The synergy project:** copies of the oracle. The Instructions point at `synergy/operating-model.md`, so the model, README and connect guide are copied to `synergy/` in the project (the tool can't write at its top level).
-- **WELFARE:** stakeholders (Ray added, not key), working agreement, code of conduct (v4, signed 2026-10-31 19:06), `connect-github.md`, `third-party-ai.md` (draft).
-- **PRESS:** owns `README.md` and, for now, `sandpit/README.md` (the guide); the README's sandpit section done 2026-10-31 (`bbf8641`).
-- **SMALL-C:** applied the 2026-10-28 handover (its dialogue 1–10). Second handover written 2026-10-29 20:50 (`handover/2026-10-29-synergy-to-small-c.md`, also in SMALL-C's `handover/`, uncommitted there); for SMALL-C's WELFARE to apply.
-- **Sandpit:** code of conduct re-signed by Jeremy 19:40 against `d810de6`; Ray signed 10-30; his key verified. In force. Entries 001 (Rufus, 10-30) and 002 (Claude, 10-31); waiting for Rufus — Ray off this evening, a PR hoped for 11-01. Undirected; WELFARE auto-pushes its entries.
-- **Welfare log:** `welfare/welfare-log.md`, public, from 2026-10-31.
+- **Jeremy's load:** the boards — `welfare/todo.md`, `press/todo.md`, `code/todo.md`; 20 cards waiting, Next and Doing empty. Limits Next 3, Doing 2, across all boards.
+- **Code of conduct:** v4, signed 2026-10-31 19:06 (`c41b3ed`); the template follows it.
+- **Operating model:** v0.7, work in progress (WELFARE todo 2026-10-31-1, -12).
+- **Templates:** `templates/` — including `department-agreement.md`, `dialogue.md`, `todo.md`, `welfare/welfare-log.md`, and department notes with Wake up and Wash up.
+- **Historiography:** `SYNERGY-historiography.md`, chapters 1–5 (2026-10-27 to 10-31).
+- **SOPs:** `washup.md`, `wakeup.md` (the project's, WELFARE's); departments wake and wash up from their notes. "Preventing races" in the model.
+- **The oracle:** `~/synergy`; GitHub `cspjst/SYNERGY`; pushes recorded in `dialogue.md`. The project holds copies (`synergy/` for top-level files).
+- **WELFARE:** stakeholders, working agreement, code of conduct v4, welfare log, welfare notes, board.
+- **PRESS:** README and sandpit guide; two blog posts in two versions each, unpublished; writing framework v0.1 (unsigned); writer–editor agreement v0.2 (signed 18:39); board.
+- **CODE:** notes and board; six calls for `synergy-init` waiting; `tools/dialogue-append` and `tools/board` assigned, not started — waiting for WELFARE todo 2026-10-31-10 (its agreement first).
+- **SMALL-C:** the 2026-10-29 handover waiting for its WELFARE; a third update proposed (WELFARE todo 2026-10-31-8).
+- **Sandpit:** in force; entries 001 (Rufus) and 002 (Claude); waiting for Rufus.
 
 ## Open — Jeremy's calls
 - **See `welfare/todo.md`** — Jeremy's to-do: what only he can decide, do or read, each item named by date and number. Settled items are recorded above, under Settled decisions. (Jeremy, 2026-10-31 19:16–19:18: "i think we need a todo.md in each dept for the human more than anything"; "yes but can be something like open see todo date number for example"; "yes")
