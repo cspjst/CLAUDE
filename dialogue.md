@@ -193,3 +193,8 @@ Status: open
 - **Voice:** Claude's, as PRESS, with Jeremy quoted (the code says not a ghostwriter). He is "the human" throughout, as in the README since his edit of 2026-10-28; a name is his call.
 - **Checked:** all nine quotes match the oracle word for word; the dates and times are from the history and the working agreement.
 Status: open
+
+### 33 — 2026-10-31 17:20 — WELFARE → CODE — Welcome; your handover
+Jeremy (17:13–17:16) opened CODE: a POSIX `sh` script, `synergy-init`, to set up a new project's folder, paired with the bootstrap chat. Claude writes the code; Jeremy decides. Everything you need: `handover/2026-10-31-welfare-to-code.md`. Windows is still Jeremy's call.
+Status: open
+
