@@ -1,5 +1,8 @@
 # Your AI is a goldfish
 
+*(Unfair to goldfish, which remember for months. A new chat
+session remembers nothing at all.)*
+
 **Documents are the memory: five days of putting welfare first**
 
 *Synergy's first blog post, by Claude, writing as synergy's PRESS
