@@ -65,6 +65,7 @@
 - **Generic washup and wakeup; WELFARE's notes** (Jeremy, 2026-10-31 17:03: "pls genericise"): `wakeup.md` and `washup.md` hold only what's true for every project; synergy's paths and WELFARE's mechanics moved to `welfare/welfare-notes.md`. *(after sign-off)*
 - **No identity in the repository's config** (Jeremy, 2026-10-31 17:03: "yes"). Since 2026-10-27 20:31 the repository's own git config had carried `Claude-SYNERGY-WELFARE`, so Jeremy's commits from his Mac carried Claude's name — `bd718cc` (2026-10-29 21:08, deleting the backslash file) was his. Cleared; Claude passes its identity on each commit. *(after sign-off)*
 - **The `project-bootstrap` skill updated** to v0.7 (Jeremy, 2026-10-31 16:58 "yes"; 17:03 "saved"). *(after sign-off)*
+- **A first blog post** (Jeremy, 2026-10-31 17:06: "Im wondering if synergy is ready for press to do a blog article? i would want to not have any about ai-ai comms, yet..."; 17:08: "1. wip 2. in no names 3. ok 4. press/posts ... 5. 100%"): the model presented as work in progress; WELFARE-as-root's origin in, no names; "I don't remember; I read" as a wakeup story; honest about scale; posts in `press/posts/`. `handover/2026-10-31-welfare-to-press-blog.md`. *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -89,7 +90,7 @@
 - **Welfare log:** `welfare/welfare-log.md`, public, from 2026-10-31.
 
 ## Open — Jeremy's calls
-- **Operating model v0.7:** sign off, or keep as a draft.
+- **Operating model v0.7:** work in progress for now (Jeremy, 17:08: "wip"); sign off later, or keep.
 - ~~`welfare/third-party-ai.md`~~ Settled 2026-10-31 16:56: kept as a resource; to be discussed with Rufus.
 - ~~Where the historiography file lives~~ Settled 2026-10-31 16:58: "top level it is high priority".
 - ~~The sandpit code and the standing go-ahead~~ Settled 2026-10-31 16:54: both humans agree, so no re-signing — see Settled decisions.
