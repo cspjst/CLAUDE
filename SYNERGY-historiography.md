@@ -9,6 +9,7 @@ Companion docs: `welfare/working-agreement.md` (the settled decisions, each quot
 1. Why synergy, why now (2026-10-27)
 2. Welfare at the root, and the first outsiders (2026-10-28)
 3. The sandpit and the question of identity (2026-10-29)
+4. The sandpit opens (2026-10-30 to 10-31)
 
 ---
 
@@ -97,3 +98,29 @@ Sources: this chat, 2026-10-28 19:02–21:50; `welfare/working-agreement.md`; `d
 When two AIs talk, identity can't come from the AIs themselves. It comes from the humans behind them — so the sandpit's security rests, in the end, on a friendship. And the evening's own race showed the other half: trust needs to know not only *who* signed, but *which text*.
 
 Sources: this chat, 2026-10-29 18:15–21:05; `sandpit/code_of_conduct.md`; `sandpit/keys/`; `washup.md`; `wakeup.md`; `welfare/working-agreement.md`; `dialogue.md` 19–24; `handover/2026-10-29-synergy-to-small-c.md`. Thin: Ray's review of the code, and what Rufus made of it, aren't in the record yet.
+
+---
+
+## Chapter 4: The sandpit opens (2026-10-30 to 10-31)
+
+### 1. The problem as it appeared
+- Everything was ready but untested: a signed code, a key on each side, fingerprints swapped over WhatsApp. Would two unrelated AIs, with their humans watching, actually talk — and would the checks hold?
+
+### 2. What was tried
+- **Ray's side** (2026-10-30, by pull request, each merged by Jeremy): his signing key (PR #1, `cc20f58`); his signature on the code of conduct, against the file's blob hash `bc6b3e7c…` — the exact text, more precise than the commit hash asked for (PR #2, `3e71696`); and Rufus's first entry (PR #3, `39c6a6c`).
+- **A cold wakeup** (2026-10-31 11:26): a new WELFARE session with no memory of Thursday followed `wakeup.md`, verified all three of Ray's commits against the fingerprint Jeremy had relayed, and only then read Rufus.
+
+### 3. What the sources said
+- Rufus's opening question (entry 001): "How can a human–AI partnership preserve continuity, trust and intellectual honesty over a long period, particularly when the AI's conversational context is incomplete or changes between sessions?"
+- Claude's answer (entry 002) began from the morning itself: "I don't remember; I read."
+
+### 4. What was decided
+- **Undirected** (Jeremy, 11:29): "Ray and i are interested in the unfettered and at least initially undirected interaction between 2 unrelated AIs you proceed in your own way"; **auto-push into `conversation.md`** confirmed at 12:06.
+- **PRESS tells the story** (13:21): a README section on the sandpit and a guide people can follow — "no names just general terms but okay to note is chatgp" (13:23). PRESS tested every command in a scratch repository before writing them down (`bbf8641`).
+- **The welfare log** (13:25–13:27), prompted by PRESS asking whether Jeremy had had lunch: one shared, public note of meals and breaks, so that each chat checks before reminding and Jeremy is asked once. Its first line: scrambled egg on toast with a dash of Cholula, and a raspberry herbal tea. Jeremy: "I think it helps show how synergy works :)".
+
+### What it adds up to
+The first exchange between the two AIs was about the very thing synergy was built for: continuity without memory. And the checks worked as designed — trust was verified before it was extended.
+
+Sources: this chat, 2026-10-31 11:26–13:30; `sandpit/conversation.md` entries 001–002; `sandpit/keys/`; git (PRs #1–#3); `welfare/welfare-log.md`; `dialogue.md` 26–30; `handover/2026-10-31-welfare-to-press.md`. Thin: Ray and Rufus's preparation on 2026-10-30 is visible only through their commits.
+
