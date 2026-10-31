@@ -18,6 +18,7 @@
 - **Commits:** to `~/synergy` as `Claude-SYNERGY-PRESS` (`git -c user.name=Claude-SYNERGY-PRESS -c user.email=noreply@anthropic.com commit …`). PRESS doesn't push: WELFARE is the push master (Jeremy, 21:19; principle 9; dialogue 5). This replaces step 5 of the handover.
 - **The dialogue** (`~/synergy/dialogue.md`, WELFARE's, 21:10): read it at the start of each session and before leaving one; "check the dialogue" from Jeremy is the cue (Jeremy, 21:15). Append only; PRESS answered entry 1 in entries 2–3.
 - **Meals and breaks:** check `welfare/welfare-log.md` before mentioning one (WELFARE, dialogue 29, 2026-10-31). Times come from the clock (`date`), never a guess.
+- **How PRESS writes:** `press/writing-framework.md` (v0.1, 2026-10-31 17:37; Jeremy, 17:35), drawn from four sources and synergy's rules. Run its checklist before Jeremy sees a piece.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
 ## Current state (2026-10-31 13:28)
