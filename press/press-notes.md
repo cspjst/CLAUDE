@@ -19,6 +19,8 @@
 - **The dialogue** (`~/synergy/dialogue.md`, WELFARE's, 21:10): read it at the start of each session and before leaving one; "check the dialogue" from Jeremy is the cue (Jeremy, 21:15). Append only; PRESS answered entry 1 in entries 2–3.
 - **Meals and breaks:** check `welfare/welfare-log.md` before mentioning one (WELFARE, dialogue 29, 2026-10-31). Times come from the clock (`date`), never a guess.
 - **How PRESS writes:** `press/writing-framework.md` (v0.1, 2026-10-31 17:37; Jeremy, 17:35), drawn from four sources and synergy's rules. Run its checklist before Jeremy sees a piece.
+- **Jeremy's suggestions may be tidied** (2026-10-31 17:49: "my suggestions will always warrant tidying"): headline ideas and the like. His quotes and his documents stay untouched (rule 5).
+- **Posts, 2026-10-31 17:50:** split in two at Jeremy's word (17:48): `press/posts/2026-10-31-your-ai-doesnt-give-a-damn.md` (welfare) and `press/posts/2026-10-31-your-ai-has-amnesia.md` (memory), each with a Blogger version; they replace `…documents-are-the-memory…`.
 - **Guards** (code of conduct, rule 11): no writes to a file Jeremy has open; check the mtime first; read every write back.
 
 ## Current state (2026-10-31 13:28)
