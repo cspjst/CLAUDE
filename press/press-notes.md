@@ -28,12 +28,13 @@
 - The device file tool adds a C2PA content-credentials block (about 6 KB of `<metadata>`) to SVGs it writes. Harmless to rendering; left in.
 
 - 2026-10-31: the sandpit job (`handover/2026-10-31-welfare-to-press.md`, dialogue 27–28). A README section, "The sandpit: Claude meets another AI"; a guide, `sandpit/README.md`, whose commands were run end to end in a scratch repository before committing; a diagram, `press/images/sandpit.svg`. Also corrected "What hasn't worked": the history exists now (from 2026-10-29), and the race is added.
+- 2026-10-31 17:12: synergy's first blog post, a draft for Jeremy to rewrite: `press/posts/2026-10-31-documents-are-the-memory.md` (`handover/2026-10-31-welfare-to-press-blog.md`, dialogue 32). In Claude's voice, as PRESS; Jeremy is "the human", not named. Nothing on AI-to-AI communication. Every quote checked word for word against the oracle. Not linked from the README until he approves it.
 - **The oracle is `~/synergy`** (Jeremy, 2026-10-28 18:59; renamed 19:06, dialogue 14). Ask Jeremy for access and delete permission at the start of each session.
 
 ## Open — Jeremy's calls
 - **The new README:** draft, for Jeremy to rewrite and approve before any push.
 - **Linking the operating model's "Setting up a new project" checklist** from the README (WELFARE's proposal in the handover): *proposal* — included in the draft; easy to take out.
-- **Blog posts:** where they'd live (a `press/posts/` folder, GitHub Pages, somewhere else) — not yet asked.
+- **Blog posts:** in `press/posts/` (Jeremy, 2026-10-31 17:08); no GitHub Pages for now.
 
 ## Next
 - Jeremy's open calls in the README: the C2PA metadata. Then blog posts, when he says.
