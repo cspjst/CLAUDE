@@ -29,6 +29,8 @@
 
 - 2026-10-31: the sandpit job (`handover/2026-10-31-welfare-to-press.md`, dialogue 27–28). A README section, "The sandpit: Claude meets another AI"; a guide, `sandpit/README.md`, whose commands were run end to end in a scratch repository before committing; a diagram, `press/images/sandpit.svg`. Also corrected "What hasn't worked": the history exists now (from 2026-10-29), and the race is added.
 - 2026-10-31 17:12: synergy's first blog post, a draft for Jeremy to rewrite: `press/posts/2026-10-31-documents-are-the-memory.md` (`handover/2026-10-31-welfare-to-press-blog.md`, dialogue 32). In Claude's voice, as PRESS; Jeremy is "the human", not named. Nothing on AI-to-AI communication. Every quote checked word for word against the oracle. Not linked from the README until he approves it.
+- **PRESS writes in its own voice and owns its work** (Jeremy, 2026-10-31 17:23: "i want your voice not mine you may own your work"). Jeremy reads before anything goes out.
+- 17:24: an HTML version for Blogger beside the post (`….blogger.html`: no title heading, since Blogger has a title field; links made absolute to GitHub). No Blogger connector exists in the registry; posting would be by paste, or in the built-in browser as a draft, with Jeremy publishing.
 - **The oracle is `~/synergy`** (Jeremy, 2026-10-28 18:59; renamed 19:06, dialogue 14). Ask Jeremy for access and delete permission at the start of each session.
 
 ## Open — Jeremy's calls

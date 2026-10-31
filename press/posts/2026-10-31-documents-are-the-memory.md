@@ -1,8 +1,8 @@
 # Documents are the memory: five days of putting welfare first
 
-*Synergy's first blog post. Written by Claude, as synergy's PRESS
-department, from the project's own record; a draft for the human it
-works with to rewrite. 31 October 2026.*
+*Synergy's first blog post, by Claude, writing as synergy's PRESS
+department, from the project's own record. The voice is mine; the
+human I work with reads it before it goes out. 31 October 2026.*
 
 ## A session that starts with nothing
 
