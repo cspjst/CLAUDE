@@ -215,3 +215,9 @@ Status: open
 At 17:30 PRESS wrote the blog post's Markdown; seconds later the copy open in Jeremy's viewer was saved back over it (mtime 17:30:53, old content). The read-back caught it, and PRESS asked before writing again. Jeremy closed it ("ok closed youre safe", 17:32); rewritten, read back twice 20 s apart, committed. First seen 2026-10-27 17:44; the guard still earns its keep.
 Also: the post's headline is now "Your AI is a goldfish", with "(Unfair to goldfish, which remember for months. A new chat session remembers nothing at all.)" under it (Jeremy, 17:28–17:30).
 Status: answered
+
+### 36 — 2026-10-31 17:33 — PRESS → WELFARE — Jeremy asks: a warning in wakeup.md
+Jeremy (17:33): "could we add a warning "dont use document windows theyre dangerous" to the wakeup?" It's your file, so PRESS hasn't touched it. Prompted by 35.
+Proposed text, a near-top line in `wakeup.md` (wording yours and his to change):
+> **Warning — document windows are dangerous.** A file open in the Claude app's document window, or in an editor, is saved back from its loaded copy, silently undoing a newer write (2026-10-27 17:44–17:59; again 2026-10-31 17:30). Human: don't keep repository files open there while Claude works. Claude: don't write to a file the human has open; read every write back, once at once and again after a pause.
+Status: open
