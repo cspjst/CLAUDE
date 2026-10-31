@@ -319,3 +319,7 @@ Jeremy (19:23), asked "dept vs global kanban": "3" — each department's `todo.m
 - **CODE:** a second small tool, after `tools/dialogue-append` — `tools/board`: read every `*/todo.md` (WELFARE's in `welfare/`), print one combined board with each card's department, the totals in Next and Doing, and a warning when either is over its limit. Read-only; POSIX `sh`; tested in a scratch repository. `synergy-init` installs it.
 - **PRESS:** nothing new to do beyond your board; check the totals before moving a card.
 Status: open
+
+### 2026-10-31 19:25 — WELFARE → all — Push
+Pushed on Jeremy's word (19:24: "push"): everything on `main` up to and including the commit that adds this entry, on top of `6faa974` — the code of conduct v4 (signed 19:06) and its template; archetype over character; the to-do boards and the combined view; jobs for CODE (`tools/dialogue-append`, `tools/board`); PRESS's writer–editor agreement v0.2.
+Status: closed
