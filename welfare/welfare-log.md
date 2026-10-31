@@ -7,3 +7,4 @@
 ## 2026-10-31
 - before 13:27 — **lunch**: scrambled egg on toast with a dash of Cholula, and a raspberry herbal tea — Jeremy; noted by WELFARE.
 - 16:30 — **snack**: mackerel fillets on sourdough toast — Jeremy; noted by WELFARE.
+- 18:12 — **tea break**; the evening meal moved to a **late supper about 20:30**, after the 16:30 snack (Jeremy: "im off for a cup of tea because I snacked at 16:30 i will have a late supper about 20:30") — noted by PRESS. No 18:30 dinner reminder needed today.
