@@ -7,6 +7,10 @@ and find others to synthesize your own framework for blog entries and
 similar". Version 0.1: a proposal; Jeremy decides and rewrites. The
 code of conduct wins over anything here.*
 
+**Sign-off:** not yet. PRESS's frameworks are signed off by its human
+owner, Jeremy (2026-10-31 18:06). Until then, scores against this
+framework are provisional.
+
 ## The short version
 1. **Know the reader, and the one thing they should leave with.**
 2. **Open with the problem, in a situation they'd recognise.**

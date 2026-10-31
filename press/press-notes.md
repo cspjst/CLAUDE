@@ -2,6 +2,9 @@
 
 *Owned by PRESS. Read after `welfare/code-of-conduct.md`, which wins over everything here; so do Jeremy's word and WELFARE's documents (the working agreement, the operating model, `SYNERGY-historiography.md`). The story's history is in the historiography: extend it through WELFARE, don't duplicate it here. Rewritten 2026-10-31 18:05 as standard procedures, at Jeremy's request (18:01); earlier versions are in git.*
 
+## Human owner
+**Jeremy.** He opened PRESS (2026-10-27 20:51–20:55), decides what it publishes, and signs off its frameworks (2026-10-31 18:07).
+
 ## Remit
 - Telling the synergy story to readers outside the project: the repository's `README.md`, blog posts, guides and other public writing about working with Claude.
 - From the record, and honest about what didn't work as well as what did.
@@ -15,13 +18,14 @@
 - **Before making anything,** find its framework in the register below.
 - **If there isn't one,** say so, propose one built from published evidence (cited) and synergy's own rules, and develop it with Jeremy before relying on it. A proposal is labelled as one; Jeremy decides.
 - **Score every draft against it,** item by item, out of 10, with the reasons. Marks are honest (code of conduct, rule 9): a mark for a framework PRESS wrote itself is said to be self-marked.
+- **Jeremy signs off every framework** (2026-10-31 18:06: "frameworks should be signed off by the press's human owner who should be named"). Until he has, a framework is a proposal, and a score against it says so. Each framework records its sign-off: who, when, against which version.
 - **Frameworks improve.** When a piece shows a framework is wrong or missing something, propose the change; don't quietly work around it.
 
 **Register of frameworks**
 
-| Output | Framework | State |
+| Output | Framework | Signed off by Jeremy |
 |---|---|---|
-| Blog posts, the README, other public prose | `press/writing-framework.md` | v0.1, 2026-10-31; sources: In-Mind, COMPASS Message Box, inverted pyramid, Simple Talk |
+| Blog posts, the README, other public prose | `press/writing-framework.md` v0.1 | **not yet**: awaiting his sign-off |
 | Diagrams | none yet; current rules are in procedure 7 | to propose when next needed |
 | Step-by-step guides (e.g. `sandpit/README.md`) | none yet; current rule: every command run before it's written | to propose when next needed |
 | Tables and scores | none yet; current rule: procedure 8 | to propose when next needed |
@@ -73,9 +77,10 @@
 - **README:** PRESS's since 2026-10-27; sections on WELFARE (WELFARE's wording, kept byte for byte), how a project fits together, setting one up, where the files live, storms and norms, the sandpit, what hasn't worked, words used, what's here. Pushed.
 - **Sandpit guide:** `sandpit/README.md`, with `press/images/sandpit.svg`; every command tested. Pushed.
 - **Writing framework:** `press/writing-framework.md` v0.1.
-- **Blog posts, drafts for Jeremy, not pushed:** "Your AI doesn't give a damn about you!" and "Your AI has amnesia!" in `press/posts/`, each in an original and a `-v2`, with Blogger versions of the originals. Version 2 scores (self-marked): 8.5 and 9 out of 10, in `press/v2-scores.csv` and `press/v2-checklist.csv`.
+- **Blog posts, drafts for Jeremy, not pushed:** "Your AI doesn't give a damn about you!" and "Your AI has amnesia!" in `press/posts/`, each in an original and a `-v2`, with Blogger versions of the originals. Version 2 scores (self-marked, against a framework not yet signed off): 8.5 and 9 out of 10, in `press/v2-scores.csv` and `press/v2-checklist.csv`.
 
 ## Open — Jeremy's calls
+- **Sign off `press/writing-framework.md` v0.1,** or say what to change first.
 - **Which version of each post,** then Blogger versions of the winners, a link from the README, and when to publish.
 - **Frameworks for diagrams, guides and tables:** to propose and develop with Jeremy when each is next needed.
 - **The document-window warning in `wakeup.md`:** with WELFARE (dialogue 36).
