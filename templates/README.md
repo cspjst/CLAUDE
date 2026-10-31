@@ -21,6 +21,8 @@
 | 4 | `department-opening.md` | the first message of each department chat |
 | 4 | `department-notes.md` | `<dept>/<dept>-notes.md` |
 | any | `handover/handover.md` | `handover/<date>-<from>-to-<to>.md` |
+| 2 | `../washup.md`, `../wakeup.md` (synergy's root) | `washup.md`, `wakeup.md` at the new oracle's root — copied as they are; they're generic |
+| 2 | `department-notes.md` | `welfare/welfare-notes.md` — WELFARE's remit, where things live, how it commits, signs and pushes |
 
 ## Rules that come with them
 - Every project has a WELFARE department, and it is the main department: it keeps the stakeholders, the code of conduct, the working agreement and the historiography (operating model, principles 7 and 8).

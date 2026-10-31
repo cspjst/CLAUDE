@@ -1,5 +1,7 @@
 # Handover: WELFARE → WELFARE, the next session (washup, 2026-10-31 13:30)
 
+*Since this was written: `welfare/welfare-notes.md` now holds WELFARE's mechanics (2026-10-31 17:03).*
+
 *From synergy's WELFARE, at Jeremy's request (13:30): "our work for now is done so pls washup and then i will close down". Start with `wakeup.md`; this keeps only what's particular to today.*
 
 ## Where things stand

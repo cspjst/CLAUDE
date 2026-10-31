@@ -21,7 +21,7 @@
 - **WELFARE keeps the stakeholder list** (Jeremy, 17:51); key stakeholders are the subset whose driver is the project's best interests.
 - **Synergy owns the bootstrap kit** (Jeremy, 17:57): "anything any new project would need to bootstrap from".
 - **Masters** (Jeremy, 18:03, 18:09): the synergy project is the master of the model and the templates — "github is not the master synergy is"; `~/claude` and GitHub are backups.
-- **The `project-bootstrap` skill:** update it — "yes" (2026-10-31 16:58); proposed 17:00 for Jeremy to save from the card.
+- ~~The `project-bootstrap` skill~~ Updated to v0.7 — proposed 17:00, saved by Jeremy (17:03: "saved").
 - **Templates ready and waiting** (Jeremy, 18:03) in `~/claude/templates/`.
 - **Versioning** (Jeremy, 18:09): "yes versioning then I can choose to delete as/if needed but probably not." Every new version of a shared document gets a new file name; old versions are kept.
 - **Synergy gets SMALL-C's WELFARE**, tailored; **SMALL-C is brought up to date as if bootstrapped from synergy** (Jeremy, 18:09).
@@ -62,6 +62,9 @@
 - **Auto-push agreed by both humans** (Jeremy, 2026-10-31 16:54): "I have chatted w Ray and he is content that you have auto push on inter ai conversations he likes you reply but is not working this evening so hopefully a PR tomorrow". Jeremy's 11:29 go-ahead, now with Ray's agreement, is the "word" the sandpit code requires; the code isn't changed or re-signed. *(after sign-off)*
 - **The guide and the third-party contract** (Jeremy, 2026-10-31 16:56): "3. as now 4. keep as resource suggest you discuss with chatgpt-rufus ?" — the guide stays at `sandpit/README.md`; `welfare/third-party-ai.md` is kept as a resource, and Claude-SYNERGY-WELFARE raises it with Rufus in the sandpit. *(after sign-off)*
 - **The history at the top level** (Jeremy, 2026-10-31 16:58): "top level it is high priority" — `<REPO>-historiography.md` at the repository's root, in every project. *(after sign-off)*
+- **Generic washup and wakeup; WELFARE's notes** (Jeremy, 2026-10-31 17:03: "pls genericise"): `wakeup.md` and `washup.md` hold only what's true for every project; synergy's paths and WELFARE's mechanics moved to `welfare/welfare-notes.md`. *(after sign-off)*
+- **No identity in the repository's config** (Jeremy, 2026-10-31 17:03: "yes"). Since 2026-10-27 20:31 the repository's own git config had carried `Claude-SYNERGY-WELFARE`, so Jeremy's commits from his Mac carried Claude's name — `bd718cc` (2026-10-29 21:08, deleting the backslash file) was his. Cleared; Claude passes its identity on each commit. *(after sign-off)*
+- **The `project-bootstrap` skill updated** to v0.7 (Jeremy, 2026-10-31 16:58 "yes"; 17:03 "saved"). *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -91,7 +94,7 @@
 - ~~Where the historiography file lives~~ Settled 2026-10-31 16:58: "top level it is high priority".
 - ~~The sandpit code and the standing go-ahead~~ Settled 2026-10-31 16:54: both humans agree, so no re-signing — see Settled decisions.
 - ~~The guide's home~~ Settled 2026-10-31 16:56: `sandpit/README.md`, as now.
-- **A WELFARE notes document**, or do `wakeup.md` and the washup handover do that job?
+- ~~A WELFARE notes document~~ Settled 2026-10-31 17:03: `welfare/welfare-notes.md`; `wakeup.md` and `washup.md` made generic.
 - ~~The backslash file~~ Already deleted, 2026-10-29 21:08 (`bd718cc`) — under Claude-SYNERGY-WELFARE's name, by the repository's local git config (see 2026-10-31 16:58).
 - **An empty `~/claude` folder** reappeared 2026-10-29 18:20; harmless.
 - **The `project-bootstrap` skill** predates v0.7 (the repository, the dialogue, the push master, keys): update it?
