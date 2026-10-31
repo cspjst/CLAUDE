@@ -14,7 +14,7 @@ A conversation is a poor place to keep a project. It gets long, it gets **compac
 6. **Proposals are labelled; decisions are the human's.** And decisions are recorded with who made them and when.
 7. **Every project has a WELFARE department — for all key stakeholders**, at minimum the human and Claude (Jeremy, 2026-10-27 17:46: "i propose every project must have a welfare dept mine and yours or how else can we expect synergy? noting that storming and norming is part of successful synergy"; 17:48: "the wellbeing of all key stakeholders is paramount to project success").
 8. **WELFARE is the main department, and it keeps the history** (Jeremy, 18:24: "the welfare of all key stake holders depend upon the historiography for those who do not know history are doomed to repeat failures - my 36 years of professional experience have taught me that success begins and ends with the welfare of its key stake holders"; 18:26: "welfare *is* the main").
-9. **WELFARE is the root of the org tree, and the only department that pushes** (Jeremy, 21:19: "we need a push master and that shall be WELFARE as the root of the org tree no sub depts shall push"). Every department commits; WELFARE pushes when the human says.
+9. **WELFARE is the root of the org tree, and the only department that pushes** — and the only one that runs the project's wakeup and washup; each department wakes up and washes up from its own notes (Jeremy, 2026-10-31 18:14, 18:19) (Jeremy, 21:19: "we need a push master and that shall be WELFARE as the root of the org tree no sub depts shall push"). Every department commits; WELFARE pushes when the human says.
 
 ## The pieces
 
@@ -138,13 +138,26 @@ Tuckman's stages of a team (1965: forming, storming, norming, performing; adjour
 - **The `project-bootstrap` skill** (Jeremy, 18:03: "yes bootstrap skill now"): skills are account-wide, so it reaches every project without copying by hand; synergy owns its source. It carries the bootstrap procedure and the templates' essentials; the full templates are in `~/synergy/templates/`. (Jeremy already has one such skill, `project-historiography`.)
 - **Masters:** ~~the synergy project holds the master~~ (18:03, 18:09). **Superseded 20:28** (Jeremy): "/claude is the oracle git is the versioning tool, github is the backup you are the owner" — `~/claude`, renamed `~/synergy` on 2026-10-28, is the source of truth, owned by Claude as synergy's WELFARE; git keeps the versions; GitHub is the backup.
 
+## Preventing races
+*Jeremy, 2026-10-31 18:19: "we must pin down race prevention and it must be one of the earliest jobs for a bootstrap chat". Races seen so far: the app's document window saving over newer files (2026-10-27, 10-31); a friend's AI reading the sandpit code before its amendments were pushed (10-29); dialogue entries 33, 34, 35 and 39 numbered twice by departments writing minutes apart (10-31).*
+
+1. **One writer per file.** Only a file's owner writes it; others send changes through the dialogue or a handover (principle 3).
+2. **Shared files are append only** — `dialogue.md`, `welfare/welfare-log.md`. Append in one write with the shell's `>>`. Never read the file, change it in memory and write the whole thing back: two writers doing that at once lose one of the writes.
+3. **No sequence numbers in shared files.** An entry is identified by its date, time and sender — `### 2026-10-31 18:20 — WELFARE → PRESS — <subject>` — and referred to the same way ("Re 2026-10-31 18:14 PRESS"). Two departments can't take the same minute *and* the same name.
+4. **One git at a time.** Before any git command: test delete permission (create and remove a scratch file under `.git`), and look for `.git/index.lock`. Under a minute old: another git is working — wait and retry. Older: left over — remove it and say so. Stage named paths only.
+5. **Read back every write**, at once and after a pause; check the modification time before writing a file anyone else might have open.
+6. **Human tools:** no document windows or editors on the repository's files while agents work. To look, use GitHub or Quick Look, which can't save.
+7. **Publishing:** push before asking anyone outside to read; sign the version you mean.
+8. **One push master:** WELFARE.
+
 ## Setting up a new project — checklist
 1. Create the project; one-line description. Invoke the `project-bootstrap` skill, or copy synergy's `templates/` (`~/synergy/templates/`, or `cspjst/SYNERGY` on GitHub) into it.
+   - **Race prevention first** ("one of the earliest jobs for a bootstrap chat"): one writer per file, append-only shared files written with `>>`, entries named by time and sender, one git at a time, no document windows — "Preventing races" above; `dialogue.md` and `welfare/welfare-log.md` come from templates that build these rules in.
    - Make a folder on the human's computer the oracle: a git repository, backed up to GitHub, with GitHub linked to Claude (`connect-github.md`). Link the Claude desktop app to it.
 2. Open **WELFARE** first — it's the main department. List the stakeholders and mark the key ones (`welfare/stakeholders.md`). Draft the code of conduct together, naming the key stakeholders; the human signs it. Save as `welfare/code-of-conduct.md`.
 3. Draft the project instructions (template above); the human pastes them in.
 4. WELFARE starts the historiography with chapter 1: why this project, why now.
-5. For each area of work, open a department: notes document, opening message, rename the chat.
+5. For each area of work, open a department: **its agreement first** (`templates/department-agreement.md` — who decides what, signed, naming the version; "any good relationship should start out on a firm footing whilst expecting it to evolve that evolution shoyld be recorded of course", Jeremy, 2026-10-31 18:19), then its notes (with "Wake up" and "Wash up" sections), the opening message, and rename the chat.
 6. Upload reference files (books, specs) to the project.
 7. At each milestone: update the department's notes, and send WELFARE what the historiography needs. Before leaving a chat for good: handover.
 8. Departments talk in `dialogue.md`; every department commits; only WELFARE pushes.

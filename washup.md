@@ -2,7 +2,7 @@
 
 *First done in synergy, 2026-10-29 19:30–19:50, at Jeremy's request: "perform a washup procedure ... so that I can leave this chat where it is an return at some point in the future and you will be able to start it up again from ~/synergy"; made generic for every project (2026-10-31 17:03: "pls genericise"). Its complement is `wakeup.md`. Where this project keeps things, and how WELFARE commits, signs and pushes here, are in `welfare/welfare-notes.md`.*
 
-***Only* WELFARE wakes up and washes up (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"). Other departments don't run these procedures.** WELFARE alone pushes, too.
+**This is the project's washup, and only WELFARE runs it** (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"); WELFARE alone pushes, too. **Every other department washes up from the "Wash up" section of its own notes** — commit its work, bring its notes up to date, send its milestones to WELFARE in the dialogue — and doesn't push or write the history (Jeremy, 2026-10-31 18:14, 18:19).
 
 ## When
 - Before leaving a chat for a while, before a planned compaction, or when the human says "washup".

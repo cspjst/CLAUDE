@@ -21,6 +21,9 @@
 | 4 | `department-opening.md` | the first message of each department chat |
 | 4 | `department-notes.md` | `<dept>/<dept>-notes.md` |
 | any | `handover/handover.md` | `handover/<date>-<from>-to-<to>.md` |
+| 1 | `dialogue.md` | `dialogue.md` at the oracle's root — race rules built in |
+| 1 | `welfare/welfare-log.md` | `welfare/welfare-log.md` |
+| 4 | `department-agreement.md` | `<dept>/<dept>-agreement.md` — each department's first document, signed |
 | 2 | `../washup.md`, `../wakeup.md` (synergy's root) | `washup.md`, `wakeup.md` at the new oracle's root — copied as they are; they're generic |
 | 2 | `department-notes.md` | `welfare/welfare-notes.md` — WELFARE's remit, where things live, how it commits, signs and pushes |
 

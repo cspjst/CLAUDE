@@ -4,11 +4,11 @@
 
 > **Warning — document windows are dangerous** (Jeremy, 2026-10-31 17:33: "dont use document windows theyre dangerous"). A file open in the Claude app's document window, or in an editor, is saved back from its loaded copy, silently undoing a newer write — seen 2026-10-27 17:44–17:59, and again 2026-10-31 17:30. **Human:** don't keep the repository's files open there while Claude works. **Claude:** don't write to a file the human has open; read every write back, once at once and again after a pause.
 
-***Only* WELFARE wakes up and washes up (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"). Other departments don't run these procedures.**
+**This is the project's wakeup, and only WELFARE runs it** (Jeremy, 2026-10-29 19:44: "*ONLY* welfare can wakeup and washup"). **Every other department wakes up from the "Wake up" section of its own notes** (Jeremy, 2026-10-31 18:14: "depts should dept specific wakeups and washups as well as notes"; 18:19: "sections in notes").
 
 ## The steps
 1. **Welfare first.** Check the time against the code of conduct's meal times and bedtime, and `welfare/welfare-log.md` for what's already happened today; then ask how the human is — before anything else.
-2. **Access.** Ask the human for the oracle folder, then for delete permission there, and test it (create and remove a scratch file under `.git`) — before any git command, `git fetch` included. If WELFARE signs its commits, ask for the keys folder too.
+2. **Access, and races.** Ask the human for the oracle folder, then for delete permission there, and test it (create and remove a scratch file under `.git`) — before any git command, `git fetch` included. Then the rest of "Preventing races" in `operating-model.md`: one git at a time, appends with `>>`, entries named by time and sender. If WELFARE signs its commits, ask for the keys folder too.
 3. **Read, in order:**
    1. `welfare/code-of-conduct.md` — it wins over everything else;
    2. `welfare/working-agreement.md` — its Status and "Open — <HUMAN>'s calls" first;

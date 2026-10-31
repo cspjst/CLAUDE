@@ -69,6 +69,12 @@
 - **CODE department** (Jeremy, 2026-10-31 17:13–17:16): the bootstrap tooling — a script, `synergy-init`, to set up a new project's folder, paired with the bootstrap chat that interviews the human; not the documents' content. "this kind of script drudgery is totally an AI thing (no hard feelings)" — Claude writes the code. POSIX `sh` — "ok POSIX all the way" (17:18): one script, Git Bash or WSL on Windows. Commits as `Claude-SYNERGY-CODE`. `handover/2026-10-31-welfare-to-code.md`. *(after sign-off)*
 - **PRESS writes in its own voice** (Jeremy, 2026-10-31 17:23, via PRESS: "i want your voice not mine you may own your work"). The blog post is Claude's, as PRESS; Jeremy reads it before it goes out. *(after sign-off)*
 - **Document windows are dangerous** (Jeremy, 2026-10-31 17:33): "could we add a warning "dont use document windows theyre dangerous" to the wakeup?" — at the top of `wakeup.md`. The overwrite happened again at 17:30, to PRESS's blog post; the read-back caught it. *(after sign-off)*
+- **Jeremy's suggestions may be tidied** (2026-10-31 17:49, via PRESS: "my suggestions will always warrant tidying"); his quotes and documents never are (rule 5). *(after sign-off)*
+- **Evidence-based frameworks — PRESS only, for now** (18:01, via PRESS: "all of your outputs should be based on and scored against an evidence based framework and that if one does not exist then it should be proposed and interactively created"; 18:19: "PRESS only for now it seems there is more resources and prior art in PRESS' field"). *(after sign-off)*
+- **Open formats** (17:57–18:01, via PRESS): for tables, CSV is the master git tracks, with an ODS beside it when formulas or tabs are needed. *(after sign-off)*
+- **Department wakeups and washups** (18:14, via CODE: "depts should dept specific wakeups and washups as well as notes"; 18:19: "sections in notes"): "Wake up" and "Wash up" sections in every department's notes; the project's wakeup and washup stay WELFARE's. *(after sign-off)*
+- **A department agreement first** (18:11, via PRESS: "this is something that should be generalised by welfare"; 18:19: "i think any good relationship should start out on a firm footing whilst expecting it to evolve that evolution shoyld be recorded of course"): `templates/department-agreement.md`, generalised from PRESS's writer–editor agreement; each department's first document, signed against a version, its changes recorded in it. *(after sign-off)*
+- **Race prevention** (18:19: "we must pin down race prevention and it must be one of the earliest jobs for a bootstrap chat"): "Preventing races" in the operating model — one writer per file; shared files append only, with `>>`; no sequence numbers in shared files, entries named by time and sender; one git at a time; read back; no document windows; one push master. The dialogue's rules changed to match (entries 1–40 keep their numbers). *(after sign-off)*
 - **Zero tolerance stays last** (Jeremy, 19:58): "at the end it is the firm punctuation that finalises".
 - **Sucking eggs** (GOAT, relayed by Jeremy, 20:14). From SMALL-C, 2026-10-23 22:10: Claude explained `chmod +x`; Jeremy: "this is sweet of you"; Claude offered to stop explaining; Jeremy: "no carry on i'll feedback if im sucking eggs ;)". The idiom: "don't teach your grandmother to suck eggs". 48 years of programming, C and 8086 since the IBM XT. First eggs here: git (20:14).
 
@@ -81,7 +87,7 @@
 ## Status (2026-10-31 13:30, at the washup)
 - **Start here next time:** `wakeup.md`, then `handover/2026-10-31-welfare-washup.md`.
 - **Operating model:** v0.7 (`operating-model.md`), awaiting Jeremy's sign-off.
-- **Templates:** `templates/`, one file each; history named `<REPO>-historiography.md`.
+- **Templates:** `templates/`, one file each; history named `<REPO>-historiography.md`; now also `department-agreement.md`, `dialogue.md` and `welfare/welfare-log.md`.
 - **Historiography:** `SYNERGY-historiography.md`, chapters 1–4 (2026-10-27 to 10-31), at the repository's root as the templates have it.
 - **SOPs:** `washup.md` and `wakeup.md` — only WELFARE runs them; a washup implies push all.
 - **The oracle:** `~/synergy`; GitHub `cspjst/SYNERGY`. Pushes are recorded in `dialogue.md`.
