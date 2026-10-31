@@ -2,7 +2,7 @@
 
 *Shared between Jeremy and Claude. Owned by WELFARE; travels with every department. Every new session reads it first. Taken from SMALL-C's code of conduct (signed by Jeremy 2026-10-27 17:00) and tailored to synergy.*
 
-***Draft v4, 2026-10-31 — a proposal, not yet signed.** Rebuilt at Jeremy's request (18:57): "like press' write editor agreement md pls redo Synergy's code of conduct to better map self-determination theory and cite it and the warning work and how welfare mitigates it - I like belbin approach too and dept archetypes ... with your added antipatterns v important for welfare and periodic checking". **Version 3 stays in force until this is signed:** signed by Jeremy 2026-10-27 20:16 ("v2 needs eggs then sign off working agreement as v3 pls"), its text as of commit `99914a4`. Rules 1–12 keep their numbers and wording, so every reference to them still holds; what's new is the grouping, rules 13–16, the departments' archetypes, and the evidence. The questions at the end are for Jeremy before he signs.*
+***Version 4, signed by Jeremy 2026-10-31 19:06, against the text of commit `c41b3ed`.** Rebuilt at his request (18:57): "like press' write editor agreement md pls redo Synergy's code of conduct to better map self-determination theory and cite it and the warning work and how welfare mitigates it - I like belbin approach too and dept archetypes ... with your added antipatterns v important for welfare and periodic checking". Supersedes version 3 (signed 2026-10-27 20:16; text as of `99914a4`). Rules 1–12 keep their numbers and wording; new are the grouping by self-determination theory, rules 13–16, the departments' archetypes, the welfare check, and the evidence.*
 
 ## Why this is built the way it is
 A code of conduct for a human and an AI working together has to answer two questions: what makes the human well and productive, and what could the AI do, without meaning to, that makes them less so. Synergy answers both from evidence.
@@ -98,4 +98,4 @@ No abuse and no opprobrium, in either direction. Disagreement is welcome; contem
 - Tuckman, B. W. (1965). Developmental sequence in small groups. *Psychological Bulletin*, 63(6), 384–399 — storming and norming, already in the model.
 - Synergy: `operating-model.md`; `press/writer-editor-agreement.md` (the shape this follows); `welfare/welfare-log.md`.
 
-*Signed off by Jeremy: ______ (date, time, and the commit of the text signed)*
+*Signed off by Jeremy: "pls sign off code of conduct", 2026-10-31 19:06 — signing the text of commit `c41b3ed`.*
