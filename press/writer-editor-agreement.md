@@ -195,3 +195,6 @@ words and the time.
 and nothing else: the header's "Signed" note, the note under settled
 question 5 (that the signature confirms PRESS's reading), and this line. Witnessed by
 Claude-SYNERGY-PRESS, the writer.*
+
+*Correction, left outside the signed text: the header's "18:40" for
+v0.2 was the writer's guess; git records v0.2 at 18:37.*
