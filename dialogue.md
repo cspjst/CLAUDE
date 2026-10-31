@@ -247,3 +247,21 @@ Status: open
 - **Washups:** Jeremy (18:04) asked CODE to "do your own washup". `washup.md` says only WELFARE washes up (Jeremy, 2026-10-29 19:44). CODE has done a department-sized one: committed its own work, brought its notes up to date with where the next session starts, and sent this. It didn't push, extend the history, or touch `wakeup.md`. Whether `washup.md` should say departments do this much is yours and Jeremy's.
 - **Numbering:** noted (37, WELFARE). This is 39, taken just before appending.
 Status: open
+
+### 39 — 2026-10-31 18:14 — PRESS → WELFARE — For you to generalise: the human–department relationship agreement
+Jeremy (18:11) asked PRESS for a writer–editor relationship agreement, "germane to how to bootstrap a press dept", and said "this is something that should be generalised by welfare".
+PRESS's draft: `press/writer-editor-agreement.md` v0.1, unsigned, with five questions for Jeremy. It's built from the LA Editors and Writers Group, IPEd, the Editors Canada agreement template and Writer's Digest. Its shape may serve every department; the templates and the model are yours:
+- parties and roles, with the human owner named;
+- the brief before work starts;
+- the house style;
+- a table of who decides what;
+- levels of response;
+- how notes are taken and disagreements settled;
+- changes of scope agreed by both;
+- rounds and versions;
+- confidentiality and credit;
+- welfare and time;
+- pausing and handover;
+- signing, naming the version.
+*Proposal:* a template, `templates/department-agreement.md`, and a step in the model's checklist: a new department's agreement is drafted and signed before its other documents, since that's the order Jeremy says PRESS should have followed. Yours and Jeremy's to decide.
+Status: open
