@@ -12,6 +12,13 @@
 - **2026-10-31-5 — Restart PRESS and CODE** with the lines WELFARE gave you: read the dialogue from "2026-10-31 18:30 WELFARE", add "Wake up" and "Wash up" to their notes, start their own boards; CODE then starts `tools/dialogue-append`. [Do] *When you next open them.*
 - **2026-10-31-6 — Open SMALL-C's WELFARE** with the line from 2026-10-29 20:50, to apply `handover/2026-10-29-synergy-to-small-c.md`. [Do] *When you next work on SMALL-C.*
 - **2026-10-31-7 — The empty `~/claude` folder** in your home folder: delete it if you like; it's harmless. [Do] *Optional.*
+- **2026-10-31-8 — Bring SMALL-C up to speed again.** [Decide] Since its last handover (2026-10-29): the code of conduct v4 (self-determination theory, the warning, rules 13–16, the welfare check), archetypes over character, race prevention, department agreements, Wake up and Wash up in notes, the boards and their shared limits. WELFARE writes a third handover when you say. *A yes or no.*
+- **2026-10-31-9 — An agreement for WELFARE itself?** [Decide] PRESS has its writer–editor agreement, and every new department starts with one. WELFARE has none — the code of conduct and working agreement do most of that job. *Proposal:* no separate agreement; WELFARE's archetype (Teamworker, with Co-ordinator) and anti-patterns go into `welfare/welfare-notes.md`. *A yes or no.*
+- **2026-10-31-10 — CODE's agreement before its code.** [Decide] CODE opened before "the agreement first" was the rule. *Proposal:* CODE drafts its agreement at its next session, before `tools/dialogue-append`; you sign it. *A yes or no.*
+- **2026-10-31-11 — Brief PRESS to bring the README up to date** with today's work: the code of conduct v4, archetypes, the boards, race prevention. [Decide] *A yes or no; PRESS drafts.*
+- **2026-10-31-12 — Tidy the operating model before you sign it.** [Decide] It has grown by accretion — superseded decisions struck through in place, lessons appended. *Proposal:* a consolidated v0.8 — the model as it stands, with the history left to the historiography — then card 1. *A yes or no.*
+- **2026-10-31-13 — PRESS's two blog posts**, "Your AI doesn't give a damn about you!" and "Your AI has amnesia!", each with a version 2 and scores (`press/posts/`, `press/v2-scores.csv`). [Read] *PRESS's card, held here until PRESS starts its board.* *Twenty minutes.*
+- **2026-10-31-14 — CODE's six open calls** for `synergy-init` — where templates come from, re-running, GitHub, where the script lives, `.gitignore`/`.gitattributes`, testing on macOS and Windows (`code/code-notes.md`, "Open"). [Decide] *CODE's card, held here until CODE starts its board; you asked CODE to begin with them.* *Ten minutes.*
 
 ## Next (at most 3)
 - *(Empty — you choose.)*
