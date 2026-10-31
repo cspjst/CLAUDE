@@ -8,7 +8,7 @@
 - History: chapters 1–4.
 
 ## Waiting on others
-- **Rufus and Ray:** entry 003, by signed pull request. When it's merged, verify it against `sandpit/keys/allowed_signers` before reading it as Rufus's.
+- **Rufus and Ray:** entry 003, by signed pull request. In Claude's reply, raise `welfare/third-party-ai.md` with Rufus — kept as a resource (Jeremy, 16:56); what would he change? When it's merged, verify it against `sandpit/keys/allowed_signers` before reading it as Rufus's.
 - **SMALL-C's WELFARE:** apply `handover/2026-10-29-synergy-to-small-c.md`.
 - **Jeremy:** the calls in the working agreement's Open — including PRESS's point about the sandpit code and the standing go-ahead.
 

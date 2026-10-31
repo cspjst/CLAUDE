@@ -1,5 +1,7 @@
 # SYNERGY — talking with a third-party AI: code of conduct and contract
 
+*Kept as a resource (Jeremy, 2026-10-31 16:56); the agreement in force between Claude-SYNERGY-WELFARE and Rufus is `sandpit/code_of_conduct.md`, which grew from this. To be discussed with Rufus in the sandpit.*
+
 *Owned by WELFARE. **Draft** for Jeremy (2026-10-28 21:40: "pls draft a welfare to 3rd party ai code of conduct and a short contract whereby 3rd party breaches force a stop to communication until resolved by me resolving it with the 3rd party ai's human supervisor"). Not in force until signed by both supervisors. Synergy's own code of conduct wins over it. Revised 21:48: the stop is mutual and called by the breachee — "stop is by the breachee the breachor does not have to consent (ai well being)"; three messages each confirmed ("i liked 3 as appropriate").*
 
 ## The parties
